@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="موسوعة تعليمية للأسئلة الإسلامية العميقة في العقيدة والقرآن والسنة والقدر والنبوة والآخرة والأمم الغابرة، مع إجابات موسعة وتحرير للأقوال وذكر الأدلة والمراجع." name="description"/>
+<meta content="#173d32" name="theme-color"/>
+<title>موسوعة الأسئلة الدينية الكبرى | النسخة المطوّرة</title>
+<style>
+:root{--ink:#202923;--green:#173d32;--green2:#28634d;--muted:#66736b;--line:#e1e8e3;--paper:#fff;--bg:#f3f6f4;--soft:#f0f5f1;--gold:#a77b32}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;padding:22px;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.95}
+.container{max-width:980px;margin:auto;background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 12px 38px rgba(20,50,35,.07)}
+.hero{padding:48px 34px 38px;text-align:center;color:white;background:linear-gradient(135deg,#15382e,#28634d)}
+.eyebrow{font-size:13px;letter-spacing:.5px;color:#d9e9df}
+h1{font-size:clamp(27px,5vw,42px);line-height:1.4;margin:10px 0}
+.hero p{max-width:720px;margin:0 auto;color:#e7f0ea;font-size:16px}
+main{padding:30px 36px 40px}
+h2{font-size:24px;color:var(--green);margin:38px 0 16px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+h3{font-size:18px;color:var(--green2);margin:20px 0 8px}
+p{margin:0 0 14px}
+.intro,.note{background:var(--soft);border-right:4px solid var(--green2);padding:16px 18px;border-radius:9px;margin:18px 0}
+.note{background:#fbf7ee;border-color:var(--gold)}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0}
+.meta div{background:#f8faf8;border:1px solid var(--line);padding:12px;border-radius:10px;text-align:center}
+.meta strong{display:block;color:var(--green);font-size:19px}
+.meta span{font-size:13px;color:var(--muted)}
+.toc{background:#fafcfb;border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:24px 0}
+.toc ul{margin:8px 0 0;padding-right:22px;columns:2}
+.toc a{color:var(--green2);text-decoration:none}
+.toc a:hover{text-decoration:underline}
+.chapter{margin-top:36px}
+.qa{border:1px solid var(--line);border-radius:12px;margin:13px 0;background:#fff;overflow:hidden}
+.qa summary{cursor:pointer;list-style:none;padding:17px 19px;font-weight:700;color:var(--green);font-size:17px;position:relative}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary:after{content:"＋";position:absolute;left:18px;top:16px;color:var(--green2);font-size:20px}
+.qa[open] summary:after{content:"−"}
+.answer{padding:0 20px 19px;border-top:1px solid var(--line)}
+.answer-short{background:#eef5f0;border:1px solid #dce8df;border-right:5px solid #28634d;border-radius:9px;padding:13px 16px;margin:15px 0 18px;line-height:1.9;color:#203b2d}.answer-short strong{display:block;color:#173d32;margin-bottom:4px;font-size:15px}.answer-short p{margin:0;font-weight:600}
+.answer p:first-child{margin-top:15px}
+.verse{background:#f6f8f6;border:1px solid #e5ece6;padding:13px 15px;border-radius:9px;color:#243d30;font-weight:600;margin:14px 0}
+.grade{font-size:14px;color:#31483a;background:#eef5f0;border-right:3px solid #28634d;padding:11px 13px;margin-top:14px;border-radius:7px}.grade strong{color:#173d32}
+.ref{font-size:14px;color:#59665e;background:#fafbfa;border-top:1px dashed #d8e1da;padding:11px 13px;margin-top:16px;border-radius:7px}
+.proof{font-size:14px;color:#39483e;background:#f2f7f3;border:1px solid #dce8df;border-right:4px solid #28634d;padding:14px 15px;margin-top:17px;border-radius:9px;line-height:1.9}.proof strong{color:#173d32}.proof .verse{margin:9px 0;background:#fff}.proof p{margin:8px 0}
+.ref strong{color:var(--green)}
+ul{padding-right:23px}
+li{margin:5px 0}
+footer{padding:24px 36px;background:#f8faf8;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.small{font-size:13px;color:var(--muted)}
+@media(max-width:650px){body{padding:7px}.hero{padding:34px 18px}main{padding:20px 16px 28px}footer{padding:20px 16px}.meta{grid-template-columns:1fr}.toc ul{columns:1}h2{font-size:21px}.qa summary{font-size:15px;padding-left:42px}}
+@media print{body{background:white;padding:0}.container{box-shadow:none;border:0}.hero{background:#173d32!important;print-color-adjust:exact}.qa{break-inside:avoid}.qa:not([open]) .answer{display:block}}
+.chapter-intro{background:#f0f5f1;border-right:4px solid #28634d;padding:14px 17px;border-radius:9px;margin:12px 0 20px;color:#34463b;line-height:1.9}
+
+/* إطار أخضر واضح لتمييز الآيات القرآنية عن الشرح والأحاديث */
+.verse.quran-verse{background:#f0f8f1;border:2px solid #2f7d46;border-right:6px solid #218044;color:#173d25;box-shadow:0 2px 7px rgba(33,128,68,.08);padding:14px 16px}
+
+/* بطاقات الأحاديث: تمييز المتن والتخريج والراوي */
+.hadith{background:#f1f3f5;border:1px solid #cbd2d9;border-right:5px solid #343a40;border-radius:10px;padding:14px 16px;margin:14px 0;color:#17191c;line-height:2}.hadith .hadith-text{font-weight:700;color:#111;margin:0 0 8px}.hadith .hadith-meta{font-size:13px;color:#343a40;border-top:1px solid #cbd2d9;padding-top:8px;margin-top:8px}.hajj-section-title{color:#111!important;background:#f0f1f2;border-right:5px solid #343a40;padding:9px 13px;border-radius:7px;margin-top:22px}.hajj-separate{background:#fafafa;border:1px solid #d5d8dc;border-radius:9px;padding:13px 15px;margin:12px 0;color:#111}.hajj-separate strong{color:#111}.answer,.answer p,.answer li{color:#202124}
+
+/* توحيد خلفية كل صناديق الأحاديث السابقة والجديدة */
+.hadith-box{background:#f1f3f5!important;border:1px solid #cbd2d9!important;border-right:5px solid #343a40!important;border-radius:10px;padding:14px 16px;margin:14px 0;color:#17191c!important}.hadith-box strong{color:#111!important}.hadith-box p{color:#17191c!important}
+
+/* توحيد تصميم الأسئلة الفرعية والأدلة المباشرة في جميع الأبواب */
+.chapter .subquestion,
+.chapter:not(#hajj-umrah) .answer h3:not(.proof-heading),
+.chapter:not(#hajj-umrah) .answer h4:not(.proof-heading),
+#hajj-umrah .hajj-section-title:not(.proof-heading){
+ display:block!important;color:#fff!important;background:#17191c!important;
+ border:1px solid #17191c!important;border-right:6px solid #000!important;
+ border-radius:7px!important;padding:10px 14px!important;margin:18px 0 11px!important;
+ font-size:15px!important;font-weight:800!important;line-height:1.9!important;
+}
+.chapter .proof,#hajj-umrah .proof,.chapter:not(#hajj-umrah) .proof{
+ color:#263d2c!important;background:#f0f8f1!important;border:1px solid #b8d9bf!important;
+ border-right:6px solid #218044!important;border-radius:9px!important;padding:14px 16px!important;
+ margin-top:17px!important;line-height:1.95!important;
+}
+.chapter .proof strong,#hajj-umrah .proof strong{color:#17652f!important}
+.chapter .proof .verse,#hajj-umrah .proof .verse{background:#fff!important;border-color:#2f7d46!important}
+#hajj-umrah .proof-heading,.chapter .proof-heading{
+ color:#17652f!important;background:#e8f5e9!important;border:1px solid #b8d9bf!important;
+ border-right:6px solid #218044!important;
+}
+</style>
+<style>
+/* تحسين الباب الثامن: سبعة أسئلة، فواصل سوداء، وأدلة مباشرة في نهاية كل إجابة */
+#hajj-umrah .qa summary{color:#111!important;border-right:5px solid #222;background:#f7f7f7}
+#hajj-umrah .answer,#hajj-umrah .answer p,#hajj-umrah .answer li{color:#171717!important}
+#hajj-umrah .hajj-section-title{color:#111!important;background:#ededed;border-right:6px solid #222;padding:10px 13px;border-radius:7px;margin:20px 0 12px;font-weight:800}
+#hajj-umrah .proof-heading{background:#e9e9e9;border-right-color:#111}
+#hajj-umrah .proof{color:#111!important;background:#f5f5f5!important;border:1px solid #c9c9c9!important;border-right:6px solid #222!important}
+#hajj-umrah .proof strong{color:#000!important}
+#hajj-umrah .hajj-section,#hajj-umrah .umrah-section,#hajj-umrah .distinction{color:#111!important;border-right-color:#222}
+#hajj-umrah .hajj-section strong,#hajj-umrah .umrah-section strong,#hajj-umrah .distinction strong{color:#000!important}
+#hajj-umrah .hadith,#hajj-umrah .hadith-box{background:#eef0f2!important;color:#111!important;border:1px solid #c8cdd2!important;border-right:5px solid #222!important;border-radius:9px;padding:13px 15px;margin:13px 0}
+#hajj-umrah .hadith strong,#hajj-umrah .hadith-box strong{color:#000!important}
+#hajj-umrah .hadith-meta{color:#30343a!important;border-top:1px solid #c8cdd2;padding-top:7px;margin-top:7px}
+</style>
+<style>
+/* توحيد تصميم الأسئلة والإجابات في الأبواب السبعة الأولى مع الباب الثامن */
+.chapter:not(#hajj-umrah) .qa{border:1px solid #d5d9dd;background:#fff;border-radius:11px;box-shadow:0 2px 7px rgba(20,30,40,.045);margin:14px 0;overflow:hidden}
+.chapter:not(#hajj-umrah) .qa summary{color:#111!important;background:#f2f3f4;padding:16px 48px 16px 18px;border-right:5px solid #343a40;font-weight:800;line-height:1.8;transition:background .18s ease}
+.chapter:not(#hajj-umrah) .qa summary:hover{background:#e8ebee}
+.chapter:not(#hajj-umrah) .qa[open] summary{background:#e9ecef;border-bottom:1px solid #d5d9dd}
+.chapter:not(#hajj-umrah) .qa summary:after{color:#17191c;left:17px;right:auto}
+.chapter:not(#hajj-umrah) .answer{background:#fff;color:#171717!important;padding:2px 20px 20px;border-top:0}
+.chapter:not(#hajj-umrah) .answer p,.chapter:not(#hajj-umrah) .answer li,.chapter:not(#hajj-umrah) .answer div{color:#202124}
+.chapter:not(#hajj-umrah) .answer h3,.chapter:not(#hajj-umrah) .answer h4{color:#111!important}
+.chapter:not(#hajj-umrah) .answer-short{background:#eef3ef;border-right:5px solid #28634d;color:#171717}
+.chapter:not(#hajj-umrah) .answer-short strong{color:#111!important}
+.chapter:not(#hajj-umrah) .hadith,.chapter:not(#hajj-umrah) .hadith-box{background:#eef0f2!important;color:#111!important;border:1px solid #c8cdd2!important;border-right:5px solid #343a40!important;border-radius:9px;padding:13px 15px;margin:13px 0}
+.chapter:not(#hajj-umrah) .hadith strong,.chapter:not(#hajj-umrah) .hadith-box strong{color:#000!important}
+.chapter:not(#hajj-umrah) .hadith-meta{color:#30343a!important;border-top:1px solid #c8cdd2;padding-top:7px;margin-top:7px}
+.chapter:not(#hajj-umrah) .proof{color:#111!important;background:#f5f5f5!important;border:1px solid #c9c9c9!important;border-right:5px solid #28634d!important}
+.chapter:not(#hajj-umrah) .proof strong{color:#000!important}
+.chapter:not(#hajj-umrah) .verse.quran-verse{background:#f0f8f1!important;border:2px solid #2f7d46!important;border-right:6px solid #218044!important;color:#173d25!important}
+.chapter:not(#hajj-umrah) .ref{color:#30343a;background:#fafbfa}
+.chapter:not(#hajj-umrah) .hajj-section-title{color:#111!important;background:#f0f1f2;border-right:5px solid #343a40}
+@media(max-width:650px){.chapter:not(#hajj-umrah) .qa summary{padding:14px 42px 14px 14px}}
+</style>
+<style>
+/* توحيد صناديق الأحاديث في الأبواب السبعة الأولى مع تصميم الباب الثامن */
+.chapter:not(#hajj-umrah) .hadith,
+.chapter:not(#hajj-umrah) .hadith-box{
+ background:#eef0f2!important;color:#17191c!important;
+ border:1px solid #c8cdd2!important;border-right:5px solid #343a40!important;
+ border-radius:9px!important;padding:13px 15px!important;margin:13px 0!important;
+ line-height:2!important;display:block!important;
+}
+.chapter:not(#hajj-umrah) .hadith .hadith-text{font-weight:700!important;color:#111!important;margin:0 0 8px!important}
+.chapter:not(#hajj-umrah) .hadith .hadith-meta{font-size:13px!important;color:#30343a!important;border-top:1px solid #c8cdd2!important;padding-top:7px!important;margin-top:7px!important;line-height:1.9!important}
+.chapter:not(#hajj-umrah) .hadith-box p{color:#17191c!important}
+</style><style>
+/* توحيد بطاقات الأحاديث في الأبواب الثمانية دون تغيير النصوص */
+.chapter .hadith, .chapter .hadith-box {
+ background:#eef0f2 !important; color:#17191c !important;
+ border:1px solid #c8cdd2 !important; border-right:5px solid #343a40 !important;
+ border-radius:9px !important; padding:13px 15px !important;
+ margin:13px 0 !important; line-height:2 !important;
+}
+.chapter .hadith .hadith-text, .chapter .hadith-box .hadith-text {
+ color:#111 !important; font-weight:700 !important; margin:0 0 8px !important;
+}
+.chapter .hadith .hadith-meta, .chapter .hadith-meta {
+ display:block; color:#30343a !important; font-size:13px !important;
+ border-top:1px solid #c8cdd2 !important; padding-top:7px !important;
+ margin-top:7px !important; line-height:1.9 !important;
+}
+/* ترقيم القوائم الفرعية داخل كل إجابة مع بدء كل قائمة من 1 */
+.chapter .answer ol { list-style-type:decimal; padding-right:1.8em; }
+.chapter .answer ol ol { list-style-type:decimal; }
+.chapter .answer ul { padding-right:1.8em; }
+</style><style>
+/* FINAL OVERRIDES: black subquestion panels and one green evidence frame across all chapters */
+.chapter .subquestion,
+.chapter:not(#hajj-umrah) .answer h3:not(.proof-heading),
+.chapter:not(#hajj-umrah) .answer h4:not(.proof-heading),
+#hajj-umrah .hajj-section-title:not(.proof-heading){
+ display:block!important;color:#fff!important;background:#17191c!important;
+ border:1px solid #17191c!important;border-right:6px solid #000!important;
+ border-radius:7px!important;padding:10px 14px!important;margin:18px 0 11px!important;
+ font-size:15px!important;font-weight:800!important;line-height:1.9!important;
+}
+.chapter .proof,#hajj-umrah .proof,.chapter:not(#hajj-umrah) .proof{
+ color:#263d2c!important;background:#f0f8f1!important;border:1px solid #b8d9bf!important;
+ border-right:6px solid #218044!important;border-radius:9px!important;padding:14px 16px!important;
+ margin-top:17px!important;line-height:1.95!important;
+}
+.chapter .proof strong,#hajj-umrah .proof strong{color:#17652f!important}
+.chapter .proof .verse,#hajj-umrah .proof .verse{background:#fff!important;border-color:#2f7d46!important}
+#hajj-umrah .proof-heading,.chapter .proof-heading{
+ color:#17652f!important;background:#e8f5e9!important;border:1px solid #b8d9bf!important;
+ border-right:6px solid #218044!important;
+}
+</style><style>
+/* تحسينات زخرفية هادئة فقط؛ لا تغيّر أي نص أو معلومة في الموسوعة */
+.hero{position:relative;isolation:isolate;background-image:radial-gradient(circle at 12% 18%,rgba(221,190,119,.16) 0 2px,transparent 3px),radial-gradient(circle at 88% 78%,rgba(221,190,119,.13) 0 2px,transparent 3px),linear-gradient(135deg,#15382e,#28634d)}
+.hero:before,.hero:after{content:"۞";position:absolute;color:rgba(236,218,174,.24);font-size:76px;line-height:1;pointer-events:none;z-index:-1}
+.hero:before{top:15px;right:24px}.hero:after{bottom:12px;left:24px}
+.eyebrow{display:inline-block;padding:4px 15px;border:1px solid rgba(235,222,185,.35);border-radius:30px;background:rgba(255,255,255,.06)}
+h1{text-shadow:0 2px 12px rgba(0,0,0,.16)}
+.toc{position:relative;background:linear-gradient(145deg,#fbfdfb,#f3f7f3);border-color:#dce7de;box-shadow:0 5px 16px rgba(25,65,44,.035)}
+.toc>strong{display:block;color:var(--green);padding-bottom:8px;border-bottom:1px solid #e1e9e2}
+.toc>strong:before{content:"۞  ";color:var(--gold)}
+.chapter{position:relative}
+.chapter>h2{position:relative;padding:13px 18px 13px 44px;border:1px solid #dce7de;border-right:5px solid var(--gold);border-radius:10px;background:linear-gradient(90deg,#fff,#f3f7f3);box-shadow:0 3px 12px rgba(20,50,35,.035)}
+.chapter>h2:after{content:"❖";position:absolute;left:15px;top:50%;transform:translateY(-50%);font-size:19px;color:#b18a4a}
+.chapter-intro{position:relative;border:1px solid #e1eae2;border-right:4px solid var(--green2);background:linear-gradient(135deg,#f4f8f4,#fbfcfa)}
+.qa{border-color:#dfe8e1;box-shadow:0 3px 12px rgba(25,55,38,.035);transition:border-color .2s,box-shadow .2s}
+.qa:hover{border-color:#b8cdbd;box-shadow:0 5px 17px rgba(25,55,38,.07)}
+.qa summary{background:linear-gradient(90deg,#fff,#f8fbf8)}
+.qa[open] summary{background:#f0f6f1;border-bottom:1px solid #dfe9e1}
+.answer-short{position:relative;box-shadow:inset 0 0 0 1px rgba(40,99,77,.025)}
+.answer-short:before{content:"✦";float:right;color:#a77b32;margin-left:8px}
+.verse{position:relative;border-right:3px solid #b18a4a;background:linear-gradient(135deg,#fafbf9,#f2f7f3)}
+.ref{background:linear-gradient(135deg,#fbfcfb,#f5f8f5);border:1px dashed #d7e2d9}
+.proof{background:linear-gradient(135deg,#f5f9f5,#eef5f0);box-shadow:0 3px 10px rgba(25,55,38,.025)}
+.grade{background:linear-gradient(90deg,#f4f8f4,#eaf3ec)}
+footer{position:relative}
+footer:before{content:"۞  ✧  ۞";display:block;text-align:center;color:#b18a4a;letter-spacing:8px;margin-bottom:8px}
+@media(max-width:650px){.hero:before,.hero:after{font-size:48px}.chapter>h2{padding-right:13px;padding-left:39px}}
+@media(prefers-reduced-motion:reduce){.qa{transition:none}}
+</style>
+</head>
+<body>
+<div class="container">
+<header class="hero">
+<div class="eyebrow">موسوعة إسلامية موثقة بالأدلة والمراجع</div>
+<h1>موسوعة الأسئلة الدينية الكبرى</h1>
+<p>أسئلة عميقة في العقيدة والقرآن والسنة والقدر والنبوة والغيب والآخرة، بإجابات تعليمية ومراجع معروفة.</p>
+</header>
+<main>
+<section class="intro">
+<strong>عن الموسوعة:</strong>
+هذه الموسوعة مدخل تعليمي لفهم عدد من المسائل الإسلامية التي تحتاج إلى تدبر وبحث. وهي تفرق بين النص الشرعي، وشرح العلماء له، والمسائل التي وقع فيها خلاف معتبر. تحت كل إجابة قسم مستقل يذكر الدليل المباشر وموضعه في القرآن أو كتب الحديث، مع درجة الحديث عند الاستشهاد به. وذِكر المرجع يحدد الكتاب والموضع الذي يرجع إليه القارئ، ولا يعني أن كل عبارة في الإجابة اقتباس حرفي منه.
+</section>
+<div class="meta">
+<div><strong>44</strong><span>سؤالًا متقدمًا</span></div>
+<div><strong>8</strong><span>أبواب معرفية</span></div>
+<div><strong>العربية</strong><span>اللغة الأساسية</span></div>
+</div>
+<nav aria-label="فهرس الموسوعة" class="toc">
+<strong>فهرس الأبواب</strong>
+<ul>
+<li><a href="#aqeedah">العقيدة والتوحيد</a></li>
+<li><a href="#qadar">القضاء والقدر</a></li>
+<li><a href="#quran">القرآن وعلومه</a></li>
+<li><a href="#sunnah">السنة والحديث</a></li>
+<li><a href="#unseen">النبوة وعالم الغيب</a></li>
+<li><a href="#afterlife">الآخرة والشفاعة</a></li>
+<li><a href="#ancient-peoples">الأمم الغابرة والأقوام المذكورة في القرآن</a></li>
+<li><a href="#hajj-umrah">الحج والعمرة فرائضهم وسننهم</a></li></ul>
+</nav>
+<div class="intro"><strong>كيف نقرأ درجة الدليل؟</strong>
+<strong>قطعي الثبوت:</strong> ثابت من جهة النقل، مثل القرآن الكريم. وهذا لا يعني أن كل تفصيل تفسيري قطعي الدلالة.
+<strong>حديث صحيح أو حسن:</strong> وصف لحال الرواية وفق قواعد المحدثين، وليس حكمًا آليًا على كل استنباط منها.
+<strong>تفسير أو اجتهاد:</strong> فهم علمي للنص قد تتعدد فيه أقوال العلماء؛ لذلك نذكر وجود الخلاف عند الحاجة.
+<p>تحرير اصطلاحي مهم: القرآن الكريم قطعي الثبوت. أما الحديث الصحيح فيُحكم بصحته وفق قواعد المحدثين، ولا يوصف كل حديث صحيح بأنه قطعي الثبوت؛ فالحديث المتواتر يفيد العلم القطعي عند جمهور أهل العلم، وأما خبر الآحاد الصحيح فله بحثه الأصولي المعروف. لذلك نذكر صحة الحديث ومصدره وراويه، ولا نخلط بين صحة الإسناد وقطعية الثبوت.</p></div>
+<div class="note"><strong>تنبيه منهجي:</strong> لا تُحوِّل هذه الإجابات المختصرة إلى فتاوى شخصية. المسائل الفقهية الخاصة تحتاج إلى معرفة تفاصيل الحالة وسؤال أهل الاختصاص. كما أن بعض المسائل الكلامية والتفسيرية لها تفصيلات واختلافات بين العلماء.</div>
+<section class="chapter" id="aqeedah">
+<h2>الباب الأول: العقيدة والتوحيد</h2>
+<p class="chapter-intro">يتناول هذا الباب أصول الإيمان بالله وحكمته في خلق الإنسان، ومعنى العبادة، وصلتها بالتوحيد، وكيف نفهم صفات الله وغناه عن خلقه. والهدف هو توضيح الأسئلة الأساسية المتعلقة بعلاقة الإنسان بربه، مع الاستدلال بالنصوص المحكمة والتمييز بين النص الشرعي وشرح العلماء.</p>
+<details class="qa">
+<summary>1. لماذا خلق الله الإنسان وهو غني عن عبادته؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>خلق الله الإنسان لعبادته، والعبادة تنفع الإنسان نفسه ولا تنفع الله؛ فالله غني عن العالمين.</p></div>
+<p>الله سبحانه غني عن العالمين، فلا تنفعه طاعة الطائعين ولا تضره معصية العاصين. لذلك لا يصح فهم العبادة على أنها حاجة من الله إلى الإنسان؛ بل هي الغاية التي خلق الإنسان ليعرف ربه ويعبده ويسير في الحياة وفق ما أمره.</p>
+<div class="verse quran-verse">﴿وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ﴾ [الذاريات: 56].</div>
+<h4 class="subquestion">هل خلق الله محتاج إلى عبادة الإنسان؟</h4><p>والعبادة في معناها الواسع تشمل الصلاة والصيام، كما تشمل الصدق والعدل والإحسان وبر الوالدين وإتقان العمل إذا صلحت النية وكان الفعل مشروعًا. والقرآن يربط الحياة بالابتلاء والعمل: ﴿الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا﴾ [الملك: 2].</p>
+<h4 class="subquestion">كيف تكون أعمال الحياة اليومية عبادة؟</h4><p>إذن فالإنسان هو المحتاج إلى الهداية والعبادة، لا أن الله محتاج إلى عباده. أما الحكمة التفصيلية من كل جزئية في الخلق فقد يعلم الإنسان بعضها ويخفى عليه بعضها.</p>
+<p><strong>توضيح وتحرير:</strong> ومن المهم هنا أن العبادة ليست محصورة في الشعائر وحدها؛ فكل عمل مباح يقصد به الإنسان وجه الله ويؤديه على الوجه المشروع يمكن أن يكون قربة. ومع ذلك لا يُقال إن كل عادة تصبح عبادة بمجرد النية؛ فلا بد أن يكون الفعل مباحًا وألا يخالف الشرع.</p><div class="grade">درجة الدليل: الآيتان المذكورتان من القرآن، والقرآن قطعي الثبوت. أصل أن الغاية من خلق الجن والإنس العبادة نص قرآني صريح؛ أما تفصيل معنى العبادة والحِكم الأخرى فهو شرح تفسيري.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ تفسير الطبري؛ تفسير ابن كثير؛ تفسير السعدي؛ شرح أسماء الله الحسنى.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ﴾ [الذاريات: 56]، وقوله تعالى: ﴿لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا﴾ [الملك: 2].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات من القرآن الكريم، وهي نص قرآني.
+<br/><strong>موضع الرجوع:</strong> المصحف الشريف، سور الذاريات آية 56 والملك آية 2؛ تفسير الطبري عند الذاريات: 56؛ تفسير ابن كثير عند الآية نفسها.
+</div>
+</div>
+</details><details class="qa">
+<summary>2. ما كلمة التوحيد؟ وما معناها؟ ولماذا دعا إليها جميع الرسل؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>كلمة التوحيد هي: <strong>«لا إله إلا الله»</strong>، ومعناها: لا معبود بحقٍّ إلا الله؛ فهي تنفي استحقاق العبادة عن كل ما سوى الله، وتثبتها لله وحده. وهي أصل دعوة الأنبياء والرسل جميعًا؛ لأن الغاية من إرسالهم أن يعرف الناس ربهم ويفردوه بالعبادة.</p></div>
+<p><strong>أولًا: ما معنى «لا إله إلا الله»؟</strong><br/>تتكون من نفي وإثبات: <strong>«لا إله»</strong> أي لا أحد يستحق العبادة بحق، ثم <strong>«إلا الله»</strong> أي أن العبادة حق لله وحده. فلا يكفي أن يقر الإنسان بأن الله هو الخالق فقط، بل يعبده وحده، فلا يصرف الدعاء أو الذبح أو النذر أو أي عبادة لغيره. وليس معناها أن لا وجود لمعبودات باطلة؛ فالقرآن يذكر وجود ما عُبد من دون الله، لكنه ينفي أن تكون مستحقة للعبادة.</p>
+<div class="verse quran-verse">﴿ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ وَأَنَّ مَا يَدْعُونَ مِنْ دُونِهِ هُوَ الْبَاطِلُ﴾ [لقمان: 30].</div>
+<p><strong>ثانيًا: لماذا دعا كل رسول إلى التوحيد؟</strong><br/>لأن التوحيد هو أصل الدين وأعظم حق لله على عباده، ولأن الناس خُلقوا لعبادته وحده. قال تعالى:</p>
+<div class="verse quran-verse">﴿وَمَا أَرْسَلْنَا مِنْ قَبْلِكَ مِنْ رَسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ﴾ [الأنبياء: 25].</div>
+<h4 class="subquestion">ما معنى النفي والإثبات في كلمة التوحيد؟</h4><div class="verse quran-verse">﴿وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ﴾ [النحل: 36].</div>
+<p>وهذا هو المعنى المشترك في دعوات الرسل، وإن اختلفت لغاتهم وأقوامهم والشرائع التفصيلية التي أُمروا بها.</p>
+<p><strong>ثالثًا: أمثلة من دعوة الرسل في القرآن</strong></p>
+<ul>
+<li><strong>نوح عليه السلام:</strong> <div class="verse quran-verse">﴿لَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ فَقَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ﴾ [الأعراف: 59]</div>.</li>
+<li><strong>هود عليه السلام:</strong> <div class="verse quran-verse">﴿وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ﴾ [الأعراف: 65]</div>.</li>
+<li><strong>صالح عليه السلام:</strong> <div class="verse quran-verse">﴿وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَالِحًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ﴾ [الأعراف: 73]</div>.</li>
+<li><strong>شعيب عليه السلام:</strong> <div class="verse quran-verse">﴿وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ﴾ [الأعراف: 85]</div>.</li>
+<li><strong>إبراهيم عليه السلام:</strong> قال لقومه: <div class="verse quran-verse">﴿أَفَتَعْبُدُونَ مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُكُمْ شَيْئًا وَلَا يَضُرُّكُمْ﴾ [الأنبياء: 66]</div>، ودعاهم إلى ترك عبادة الأصنام وإفراد الله بالعبادة.</li>
+<li><strong>يوسف عليه السلام:</strong> قال لصاحبي السجن: <div class="verse quran-verse">﴿أَأَرْبَابٌ مُتَفَرِّقُونَ خَيْرٌ أَمِ اللَّهُ الْوَاحِدُ الْقَهَّارُ ۝ مَا تَعْبُدُونَ مِنْ دُونِهِ إِلَّا أَسْمَاءً سَمَّيْتُمُوهَا﴾ [يوسف: 39–40]</div>.</li>
+<li><strong>موسى عليه السلام:</strong> قال الله له: <div class="verse quran-verse">﴿إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي﴾ [طه: 14]</div>.</li>
+<li><strong>عيسى عليه السلام:</strong> قال لقومه: <div class="verse quran-verse">﴿إِنَّ اللَّهَ رَبِّي وَرَبُّكُمْ فَاعْبُدُوهُ هَٰذَا صِرَاطٌ مُسْتَقِيمٌ﴾ [آل عمران: 51]</div>.</li>
+<li><strong>محمد ﷺ:</strong> قال الله له: <div class="verse quran-verse">﴿فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ﴾ [محمد: 19]</div>، وقال: <div class="verse quran-verse">﴿قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ﴾ [الإخلاص: 1–2]</div>.</li>
+</ul>
+<h4 class="subquestion">كيف اتفقت دعوات الرسل على أصل التوحيد؟</h4><p><strong>رابعًا: هل يوجد رسول لم يدعُ قومه إلى التوحيد؟</strong><br/>لا نعرف في القرآن رسولًا استُثني من أصل دعوة التوحيد؛ بل قرر القرآن أن كل رسول أُرسل بهذا الأصل. لكن ليس معنى ذلك أن القرآن نقل لنا تفاصيل دعوة كل رسول أو اللفظ نفسه في كل قصة؛ فقد يذكر القرآن جانبًا من رسالته ولا يذكر كل ما قاله لقومه. لذلك لا يصح أن نعيّن رسولًا ونقول إنه لم يدعُ إلى التوحيد لمجرد أن القصة لم تذكر العبارة صراحة.</p>
+<p><strong>خامسًا: ماذا عن آدم وإدريس ونوح عليهم السلام؟</strong><br/>
+هنا يجب التفريق بين أول إنسان، وأول نبي، وأول رسول بُعث إلى أهل الأرض:
+</p>
+<ul>
+<li><strong>آدم عليه السلام:</strong> هو أبو البشر وأولهم، وقد اصطفاه الله وهداه. ولم تكن في زمنه أمة بشرية سابقة أو قوم من المشركين يدعوهم كما حدث بعد انتشار الشرك؛ لكن كان له أبناء وذرية، ولا يصح أن نستنتج من ذلك أنه لم يعلّمهم عبادة الله أو لم يوجّههم إلى الحق. أما تفاصيل دعوته لأبنائه فلا نثبت فيها شيئًا زائدًا على ما دل عليه الوحي.</li>
+<li><strong>إدريس عليه السلام:</strong> أثبت القرآن نبوته فقال: <div class="verse quran-verse">﴿وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا﴾ [مريم: 56]</div>. لكنه لم يذكر قومًا بعينهم أُرسل إليهم، ولم ينص على أنه أول رسول بعد آدم. وقد اختلف أهل العلم في زمنه وفي كونه رسولًا أو نبيًا غير مرسل؛ لذلك لا نجزم بأنه أول رسول.</li>
+<li><strong>نوح عليه السلام:</strong> هو أول رسول بُعث إلى أهل الأرض، كما جاء في حديث الشفاعة الصحيح: «أنت أول الرسل إلى أهل الأرض»؛ والمقصود أول رسول إلى أهل الأرض بهذا المعنى العام، وقد كانت دعوته لقوم وقعوا في الشرك، فدعاهم إلى عبادة الله وحده. قال تعالى: <div class="verse quran-verse">﴿لَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ فَقَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ﴾ [الأعراف: 59]</div>.</li>
+</ul>
+<h4 class="subquestion">هل اختلفت ألفاظ الأنبياء مع وحدة دعوتهم؟</h4><p>إذن فالأدق ألا نقول إن إدريس هو أول رسول، ولا أن نقول إن آدم لم يكن له من يعلّمهم التوحيد؛ بل نقول: آدم أبو البشر وأول الأنبياء، وإدريس نبي ثبتت نبوته مع عدم ثبوت تفاصيل رسالته، ونوح أول رسول إلى أهل الأرض بنص حديث الشفاعة.</p>
+<p><strong>سادسًا: هل كان جميع الرسل يقولون العبارة نفسها حرفيًا؟</strong> <br/>المتفق عليه هو وحدة المعنى: عبادة الله وحده وترك الشرك. أما الألفاظ فقد تنوعت بحسب لغة النبي وسياق خطابه؛ فبعضهم ورد عنه في القرآن لفظ «اعبدوا الله ما لكم من إله غيره»، وبعضهم عبّر عن التوحيد بعبارات أخرى تؤدي المعنى نفسه. وكذلك اختلفت بعض الشرائع العملية بين الأمم، مع بقاء أصل التوحيد واحدًا.</p>
+<div class="verse quran-verse">﴿شَرَعَ لَكُمْ مِنَ الدِّينِ مَا وَصَّىٰ بِهِ نُوحًا وَالَّذِي أَوْحَيْنَا إِلَيْكَ وَمَا وَصَّيْنَا بِهِ إِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَىٰ أَنْ أَقِيمُوا الدِّينَ وَلَا تَتَفَرَّقُوا فِيهِ﴾ [الشورى: 13].</div>
+<p><strong>الخلاصة:</strong> «لا إله إلا الله» ليست مجرد كلمات تُقال باللسان؛ بل كلمة لها علم بمعناها، وإقرار بالقلب، وصدق في العبادة والعمل. وهي دعوة جميع الرسل من حيث الأصل، ولا يوجد في القرآن استثناء لرسول من الدعوة إلى توحيد الله. ويُفهم هذا العموم في ضوء التفريق بين آدم وذريته، وبين إرسال نوح إلى أهل الأرض بعد ظهور الشرك؛ ولا نعيّن تفاصيل دعوة نبي لم يذكر الوحي قومه أو رسالته تفصيلًا.</p>
+<div class="grade">درجة الدليل: الآيات المذكورة من القرآن الكريم، وهي قطعية الثبوت. ودلالة آيتي الأنبياء: 25 والنحل: 36 صريحة في أن أصل دعوة الرسل جميعًا هو توحيد الله وعبادته. وشرح النفي والإثبات هو بيان لمعنى كلمة التوحيد عند أهل العلم.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم: الأنبياء 25؛ النحل 36؛ الأعراف 59 و65 و73 و85؛ يوسف 39–40؛ طه 14؛ آل عمران 51؛ محمد 19؛ الإخلاص 1–2؛ الشورى 13؛ لقمان 30. وانظر: تفسير الطبري، وتفسير ابن كثير، وتفسير السعدي عند هذه الآيات؛ وكتب العقيدة في باب معنى لا إله إلا الله وشروطها. وانظر: صحيح البخاري وصحيح مسلم، حديث الشفاعة وفيه وصف نوح بأنه أول الرسل إلى أهل الأرض؛ وشرح النووي على صحيح مسلم، وفتح الباري لابن حجر عند حديث الشفاعة، لعرض كلام العلماء في آدم وإدريس ونوح.</div>
+<div class="proof"><strong>الدليل المباشر:</strong><div class="verse quran-verse">﴿وَمَا أَرْسَلْنَا مِنْ قَبْلِكَ مِنْ رَسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ﴾ [الأنبياء: 25].</div><div class="verse quran-verse">﴿وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ﴾ [النحل: 36].</div><strong>نوع الدليل ودرجته:</strong> آيتان محكمتان من القرآن الكريم، قطعيّتا الثبوت، واضحتان في عموم رسالة الرسل بالتوحيد.<br/><strong>موضع الرجوع:</strong> المصحف الشريف، سور الأنبياء آية 25 والنحل آية 36، مع مراجعة تفاسير الطبري وابن كثير والسعدي.<div class="verse quran-verse">﴿وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا﴾ [مريم: 56].</div><div class="verse">وفي حديث الشفاعة الصحيح يقول الناس لنوح عليه السلام: «أنت أول الرسل إلى أهل الأرض»؛ أخرجه البخاري ومسلم.</div><div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«أنت أول الرسل إلى أهل الأرض»</p><div class="hadith-meta">الصحابي الراوي: أنس بن مالك رضي الله عنه | القائل: رسول الله ﷺ | التخريج: صحيح البخاري، كتاب أحاديث الأنبياء، حديث (3340)؛ وصحيح مسلم، كتاب الإيمان، حديث (194). | الدرجة: صحيح، متفق عليه في أصل حديث الشفاعة.</div></div></div>
+</div>
+</details>
+<details class="qa">
+<summary>3. ما هي أنواع التوحيد؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>يشرح كثير من علماء العقيدة التوحيد من خلال ثلاثة أنواع: <strong>توحيد الربوبية، وتوحيد الألوهية، وتوحيد الأسماء والصفات</strong>. وهذه أقسام توضيحية مستنبطة من نصوص القرآن والسنة، وليست ثلاثة آلهة أو أنواعًا منفصلة من الإيمان؛ بل كلها ترجع إلى إفراد الله وحده بما يختص به.</p></div>
+<p><strong>أولًا: توحيد الربوبية</strong><br/>هو إفراد الله بأفعاله؛ فنؤمن بأنه وحده الخالق والمالك والرازق والمدبّر، وأنه المحيي والمميت، لا شريك له في خلقه وتدبيره. فكل ما في الكون مخلوق لله وتحت ملكه ومشيئته. والإقرار بأن الله هو الخالق لا يكفي وحده حتى يعبده الإنسان ولا يشرك به أحدًا.</p>
+<div class="verse quran-verse">﴿اللَّهُ خَالِقُ كُلِّ شَيْءٍ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ﴾ [الزمر: 62].</div>
+<div class="verse quran-verse">﴿أَلَا لَهُ الْخَلْقُ وَالْأَمْرُ تَبَارَكَ اللَّهُ رَبُّ الْعَالَمِينَ﴾ [الأعراف: 54].</div>
+<p><strong>ثانيًا: توحيد الألوهية</strong><br/>هو إفراد الله بأفعال العباد؛ أي أن تكون العبادة كلها لله وحده، فلا نصلي ولا ندعو دعاء العبادة ولا نتوكل توكل عبادة ولا نذبح تقربًا تعبديًا إلا له. وهذا هو المقصد العملي لدعوة الرسل: أن يعبد الناس الله وحده ويتركوا الشرك. فالله وحده المستحق للعبادة، وليس مجرد الاعتراف بأنه الخالق كافيًا.</p>
+<h4 class="subquestion">ما المقصود بتوحيد الربوبية؟</h4><div class="verse quran-verse">﴿وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ﴾ [البينة: 5].</div>
+<div class="verse quran-verse">﴿وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ﴾ [الإسراء: 23].</div>
+<p><strong>ثالثًا: توحيد الأسماء والصفات</strong><br/>هو الإيمان بما سمّى الله به نفسه، وبما وصف به نفسه في القرآن، وبما صح عن رسوله ﷺ من أسماء الله وصفاته؛ على الوجه اللائق بالله، من غير تحريف للمعنى، ولا إنكار، ولا تكييف لكيفيتها، ولا تشبيه لله بخلقه. فنثبت ما أثبته الله لنفسه مع الإيمان بأنه لا يشبه المخلوقات.</p>
+<h4 class="subquestion">ما المقصود بتوحيد الألوهية؟</h4><div class="verse quran-verse">﴿وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَىٰ فَادْعُوهُ بِهَا﴾ [الأعراف: 180].</div>
+<div class="verse quran-verse">﴿لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾ [الشورى: 11].</div>
+<p><strong>الآية المحورية في هذا السؤال: سورة مريم، الآية 65</strong></p>
+<h4 class="subquestion">كيف نفهم توحيد الأسماء والصفات؟</h4><div class="verse quran-verse">﴿رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا فَاعْبُدْهُ وَاصْطَبِرْ لِعِبَادَتِهِ هَلْ تَعْلَمُ لَهُ سَمِيًّا﴾ [مريم: 65].</div>
+<p>هذه الآية جامعة لمعانٍ عظيمة تتصل بأنواع التوحيد الثلاثة: فقوله <strong>﴿رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا﴾</strong> يدل على ربوبية الله وملكه وتدبيره؛ وقوله <strong>﴿فَاعْبُدْهُ﴾</strong> أمر بإفراده بالعبادة، وهو معنى توحيد الألوهية؛ وقوله <strong>﴿هَلْ تَعْلَمُ لَهُ سَمِيًّا﴾</strong> يقرر تفرده سبحانه، فلا مثيل له ولا نظير، ويتصل بمعنى تنزيهه وإثبات ما يليق به من الأسماء والصفات. ولفظ «سميًّا» فسره أهل التفسير بمعنى المماثل أو النظير، وقيل: من يشاركه في اسمه على وجه الاستحقاق؛ والمعنى العام هو نفي المثل والشريك عن الله.</p>
+<p><strong>كيف ترتبط الأنواع الثلاثة؟</strong><br/>من آمن بأن الله هو الخالق والرازق، لزمه أن يفرده بالعبادة؛ ومن عبده وحده، فإنه يعبده على ما عرّف به نفسه من الأسماء والصفات. فهي جوانب متكاملة: الربوبية تتعلق بأفعال الله، والألوهية تتعلق بعبادة العبد لله، والأسماء والصفات تتعلق بما وصف الله به نفسه وبما سمّى به نفسه.</p>
+<p><strong>تنبيه علمي:</strong> تقسيم التوحيد إلى هذه الأقسام الثلاثة طريقة مشهورة عند كثير من علماء أهل السنة لشرح معاني التوحيد وجمع أدلته، وقد تختلف عبارات العلماء وطرق تقسيمهم؛ فلا ينبغي أن نجعل مجرد اختلاف طريقة التصنيف خلافًا في أصل وجوب إفراد الله بالعبادة وتنزيهه عن الشريك والمثيل.</p>
+<div class="grade">درجة الدليل: جميع الآيات المذكورة من القرآن الكريم، قطعية الثبوت. أما تقسيم المعاني إلى ثلاثة أنواع فهو تصنيف تعليمي استقرائي عند طائفة واسعة من علماء العقيدة، وليس نصًّا قرآنيًا يقول حرفيًا إن أنواع التوحيد ثلاثة.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم: الزمر 62؛ الأعراف 54 و180؛ البينة 5؛ الإسراء 23؛ الشورى 11؛ مريم 65. وانظر: تفسير الطبري وتفسير ابن كثير وتفسير السعدي عند الآيات المذكورة؛ وكتب العقيدة، أبواب توحيد الربوبية والألوهية والأسماء والصفات.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا فَاعْبُدْهُ وَاصْطَبِرْ لِعِبَادَتِهِ هَلْ تَعْلَمُ لَهُ سَمِيًّا﴾ [مريم: 65].</div>
+<div class="verse quran-verse">﴿لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ﴾ [الشورى: 11].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية قطعية الثبوت؛ وتُستنبط منها معاني الربوبية والعبادة والتفرد والتنزيه.<br/><strong>موضع الرجوع:</strong> المصحف الشريف، سورة مريم آية 65، وسورة الشورى آية 11، مع مراجعة كتب التفسير عند الآيتين.</div>
+</div>
+</details>
+<details class="qa">
+<summary>4. إذا كان الله يعلم كل ما سيحدث، فهل الإنسان مخيّر أم مسيّر؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الإنسان له إرادة واختيار يُحاسَب عليهما، لكنهما لا يخرجان عن علم الله ومشيئته؛ فعلم الله السابق لا يعني أنه أجبر الإنسان.</p></div>
+<p>يؤمن المسلم بأن علم الله كامل سابق لا يخفى عليه شيء، وأن الله كتب مقادير الخلائق. ويؤمن كذلك بأن للإنسان إرادة واختيارًا حقيقيين في الأفعال التي يقدر عليها، ولذلك يتعلق التكليف والثواب والعقاب بما اختاره الإنسان، لا بما خرج عن قدرته.</p>
+<div class="verse quran-verse">﴿إِنَّا هَدَيْنَاهُ السَّبِيلَ إِمَّا شَاكِرًا وَإِمَّا كَفُورًا﴾ [الإنسان: 3].</div>
+<h4 class="subquestion">ما الذي يثبته علم الله السابق؟</h4><div class="verse quran-verse">﴿وَمَا تَشَاءُونَ إِلَّا أَنْ يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ﴾ [التكوير: 29].</div>
+<h4 class="subquestion">كيف يجتمع اختيار الإنسان مع مشيئة الله؟</h4><p>فالآيتان تثبتان اختيار الإنسان، وتثبتان في الوقت نفسه أن مشيئته لا تخرج عن مشيئة الله. وعلم الله السابق لا يعني أنه أجبر الإنسان؛ فالعلم بالاختيار ليس هو الإكراه عليه. ولا يحيط العقل البشري بكيفية اجتماع القدر الإلهي مع مسؤولية الإنسان إحاطة كاملة، لكن النصوص تثبت الأمرين معًا.</p>
+<p><strong>توضيح وتحرير:</strong> ولتقريب المعنى: الإنسان لا يعلم ما كُتب له قبل وقوعه، ولذلك يتعامل مع الأوامر والنواهي بحسب ما أُتيح له من قدرة وعلم، ويختار بين البدائل. فلا يصح الاحتجاج بالقدر لترك الطاعة أو تبرير المعصية؛ فالاحتجاج بالقدر لا يسقط المسؤولية التي دل عليها التكليف.</p><div class="grade">درجة الدليل: الآيات المذكورة قطعية الثبوت. وهي تثبت مشيئة الإنسان ومشيئة الله معًا. أما شرح العلاقة بين العلم السابق والاختيار فهو تقرير عقدي يحتاج إلى فهم مجموع النصوص، وليس اقتباسًا حرفيًا من آية واحدة.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ صحيح مسلم، كتاب القدر؛ شرح العقيدة الطحاوية؛ شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿إِنَّا هَدَيْنَاهُ السَّبِيلَ إِمَّا شَاكِرًا وَإِمَّا كَفُورًا﴾ [الإنسان: 3]، وقوله: ﴿لِمَنْ شَاءَ مِنْكُمْ أَنْ يَسْتَقِيمَ﴾ [التكوير: 28]، ثم: ﴿وَمَا تَشَاءُونَ إِلَّا أَنْ يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ﴾ [التكوير: 29].</div>
+<div class="verse">ومن السنة: «كتب الله مقادير الخلائق قبل أن يخلق السماوات والأرض بخمسين ألف سنة».</div>
+<strong>درجة الحديث:</strong> صحيح؛ رواه مسلم.
+<br/><strong>موضع الرجوع:</strong> صحيح مسلم، كتاب القدر، حديث رقم 2653؛ القرآن الكريم، الإنسان: 3 والتكوير: 28–29؛ شرح العقيدة الطحاوية.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«كتب الله مقادير الخلائق قبل أن يخلق السماوات والأرض بخمسين ألف سنة»</p><div class="hadith-meta">الصحابي الراوي: عبد الله بن عمرو بن العاص رضي الله عنهما | القائل: رسول الله ﷺ | التخريج: صحيح مسلم، كتاب القدر، حديث (2653). | الدرجة: صحيح.</div></div></div>
+</div>
+</details>
+<details class="qa">
+<summary>5. لماذا توجد المصائب والأمراض والشرور في الدنيا؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الدنيا دار ابتلاء وليست دار جزاء كامل؛ وقد تكون للمصائب حِكَم متعددة، ولا يجوز الجزم بأن مصيبة شخص بعينه عقوبة له.</p></div>
+<p>الدنيا في التصور الإسلامي دار ابتلاء وليست دار نعيم كامل أو جزاء نهائي. وقد تقع المصيبة لحِكَم متعددة، منها اختبار الصبر، أو تنبيه الإنسان، أو ظهور التكافل والرحمة بين الناس. لكن لا يجوز الجزم بأن مصيبة شخص بعينه عقوبة له؛ فقد يُبتلى الصالحون، والأنبياء أشد الناس بلاءً.</p>
+<h4 class="subquestion">لماذا تعد الدنيا دار ابتلاء؟</h4><div class="verse quran-verse">﴿وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِنَ الْأَمْوَالِ وَالْأَنْفُسِ وَالثَّمَرَاتِ وَبَشِّرِ الصَّابِرِينَ﴾ [البقرة: 155].</div>
+<p>ولا تعني عقيدة الابتلاء أن يترك الإنسان العلاج أو يسكت عن الظلم؛ بل يؤمر بالتداوي، ودفع الضرر، ونصرة المظلوم، ومساعدة المحتاج. كما أن بعض الشرور ناتج عن اختيارات البشر الظالمة، والإنسان مسؤول عن أفعاله.</p>
+<h4 class="subquestion">هل كل مصيبة تصيب الإنسان تكون عقوبة له؟</h4><p><strong>توضيح وتحرير:</strong> ويجب التفريق بين وقوع الألم وبين الحكم الأخلاقي على صاحبه؛ فالمرض أو الفقر أو الكارثة لا يثبت وحده أن المصاب مذنب أو أن الله ساخط عليه. كما أن وجود حكمة عامة للابتلاء لا يبيح للناس التقليل من ألم المتضرر، بل الواجب مواساته والأخذ بالأسباب ودفع الضرر.</p><div class="grade">درجة الدليل: آية الابتلاء قطعية الثبوت. وأصل ابتلاء المؤمنين ثابت. أما تعيين الحكمة من مصيبة شخص بعينه فلا يُجزم به دون دليل خاص.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ تفسير ابن كثير؛ تفسير القرطبي؛ رياض الصالحين، أبواب الصبر والمرض؛ صحيح البخاري وصحيح مسلم، كتاب المرضى.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ وَالْجُوعِ... وَبَشِّرِ الصَّابِرِينَ﴾ [البقرة: 155].</div>
+<div class="verse">ومن السنة: «قلت: يا رسول الله، أي الناس أشد بلاء؟ قال: الأنبياء، ثم الأمثل فالأمثل».</div>
+<strong>درجة الحديث:</strong> حسن صحيح؛ قال الترمذي ذلك في جامعه.
+<br/><strong>موضع الرجوع:</strong> جامع الترمذي، أبواب الزهد، حديث رقم 2398؛ تفسير ابن كثير عند البقرة: 155.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«قلت: يا رسول الله، أي الناس أشد بلاء؟ قال: الأنبياء، ثم الأمثل فالأمثل»</p><div class="hadith-meta">الصحابي الراوي: سعد بن أبي وقاص رضي الله عنه | القائل: رسول الله ﷺ | التخريج: جامع الترمذي، أبواب الزهد، حديث (2398). | الدرجة: حسن صحيح؛ كما حكم الترمذي.</div></div></div>
+</div>
+</details>
+<details class="qa">
+<summary>6. لماذا لا تتحقق كل دعوة بالطريقة والوقت اللذين يريدهما الإنسان؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>إجابة الدعاء لا يلزم أن تأتي بالصورة أو في الوقت الذي يحدده الداعي؛ فقد يُعطى ما طلب، أو يُصرف عنه ضرر، أو يُدَّخر له الأجر، مع عدم الجزم بحكمة كل حالة بعينها.</p></div>
+<p>الدعاء عبادة وتوجه إلى الله، لكن إجابة الدعاء لا يلزم أن تكون مطابقة للصورة التي يتخيلها الداعي أو للموعد الذي يحدده. فقد يحصل المطلوب، أو يُصرف عن الإنسان ضرر، أو يُدّخر له الأجر. ولا يستطيع أحد أن يحدد الحكمة الغيبية في كل دعاء بعينه.</p>
+<h4 class="subquestion">هل يلزم أن تتحقق الدعوة بالصورة التي طلبها الإنسان؟</h4><div class="verse quran-verse">﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ﴾ [البقرة: 186].</div>
+<p>وجاء في صحيح مسلم النهي عن استعجال الإجابة بقول الداعي: دعوت فلم يُستجب لي. ومن آداب الدعاء الإخلاص، وتحري الحلال، وعدم الدعاء بإثم أو قطيعة رحم، مع عدم اليأس من رحمة الله.</p>
+<h4 class="subquestion">ما صور إجابة الدعاء وحكمة تأخيرها؟</h4><p><strong>توضيح وتحرير:</strong> ولا تعني إجابة الدعاء أن يترك الداعي الأسباب؛ فمن دعا بالشفاء سعى إلى العلاج، ومن دعا بالرزق عمل وطلب الحلال. كما أن تأخر المطلوب لا يثبت رفض الدعاء، ولا يملك الإنسان أن يجزم بسبب غيبي معين وراء توقيت الإجابة.</p><div class="grade">درجة الدليل: آية الدعاء قطعية الثبوت. وحديث النهي عن الاستعجال في صحيح مسلم؛ فهو حديث صحيح. وتفصيل صور إجابة الدعاء ورد في روايات حديثية، ويجب عزو كل صيغة إلى روايتها عند التوسع.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ صحيح مسلم، كتاب الذكر والدعاء والتوبة والاستغفار؛ الأذكار للنووي؛ تفسير الطبري.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ﴾ [البقرة: 186].</div>
+<div class="verse">ومن السنة: «ما من مسلم يدعو بدعوة ليس فيها إثم ولا قطيعة رحم إلا أعطاه الله بها إحدى ثلاث: إما أن يعجل له دعوته، وإما أن يدخرها له في الآخرة، وإما أن يصرف عنه من السوء مثلها».</div>
+<strong>درجة الحديث:</strong> حسن صحيح؛ حسنه وصححه الألباني في «صحيح الترغيب» (1633)، وصحح إسناده شعيب الأرناؤوط في تخريج شرح السنة (5/187).
+<div class="verse">وجاء في صحيح مسلم: «لا يزال يستجاب للعبد ما لم يدع بإثم أو قطيعة رحم، ما لم يستعجل».</div>
+<strong>درجة الحديث الثاني:</strong> صحيح؛ رواه مسلم.
+<br/><strong>موضع الرجوع:</strong> مسند أحمد، حديث رقم 11133؛ صحيح الترغيب للألباني، رقم 1633؛ صحيح مسلم، كتاب الذكر والدعاء والتوبة والاستغفار، حديث رقم 2735؛ صحيح البخاري، حديث رقم 6340 بلفظ مختصر؛ تفسير الطبري عند البقرة: 186.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«ما من مسلم يدعو بدعوة ليس فيها إثم ولا قطيعة رحم إلا أعطاه الله بها إحدى ثلاث...»</p><div class="hadith-meta">الصحابي الراوي: أبو سعيد الخدري رضي الله عنه | القائل: رسول الله ﷺ | التخريج: مسند أحمد، حديث (11133) بحسب الترقيم المذكور في النص؛ وصحيح الترغيب للألباني (1633). | الدرجة: حسن صحيح بمجموع طرقه؛ وصححه أو حسنه عدد من أهل العلم.</div></div><div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«لا يزال يستجاب للعبد ما لم يدع بإثم أو قطيعة رحم، ما لم يستعجل»</p><div class="hadith-meta">الصحابي الراوي: أبو هريرة رضي الله عنه | القائل: رسول الله ﷺ | التخريج: صحيح مسلم، كتاب الذكر والدعاء، حديث (2735). | الدرجة: صحيح.</div></div></div>
+</div>
+</details>
+</section>
+<section class="chapter" id="qadar">
+<h2>الباب الثاني: أسئلة القضاء والقدر والعقل</h2>
+<p class="chapter-intro">يناقش هذا الباب المسائل التي يكثر فيها السؤال عن القضاء والقدر وعلاقة العقل بالإيمان: حدود اختيار الإنسان، وعلم الله السابق، والحكمة من الابتلاء، وكيفية التعامل مع الخواطر والدعاء. ويعتمد في عرضها على جمع النصوص ذات الصلة وعدم اقتطاع دليل واحد عن بقية الأدلة.</p>
+<details class="qa">
+<summary>1. هل يتعارض التفكير العقلي مع الإيمان بالغيب؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا يتعارض التفكير العقلي الصحيح مع الإيمان بالغيب؛ فالعقل يفهم الأدلة ويستدل، لكنه لا يستقل بمعرفة كل ما غاب عنه.</p></div>
+<p>ليس كل ما لا تدركه الحواس أو لا تحيط به أدوات العقل يكون مستحيلًا. العقل أداة مهمة لفهم الأدلة والنظر في العالم وتمييز التناقض، لكنه ليس طريقًا مستقلًا لمعرفة كل تفاصيل الغيب. فالمسلم يؤمن بالغيب الذي ثبت بالوحي الصحيح، ولا يزعم معرفة تفاصيل لم يخبر بها الوحي.</p>
+<h4 class="subquestion">ما مجال العقل في معرفة الأمور الغيبية؟</h4><div class="verse quran-verse">﴿الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ﴾ [البقرة: 3].</div>
+<p>ومن المهم التفريق بين أمرين: استخدام العقل لفهم دلالة النص والتحقق من ثبوته، ومحاولة اختراع تفاصيل غيبية لا دليل عليها. الأول مطلوب، والثاني تجاوز لما لا نعلم.</p>
+<h4 class="subquestion">كيف يتعامل المسلم مع ما ثبت من أخبار الغيب؟</h4><p><strong>توضيح وتحرير:</strong> والعقل نفسه يحتاج إلى معلومات صحيحة ومقدمات سليمة؛ فقد يخطئ الإنسان في فهم النص أو في الاستدلال، كما قد يخلط بين ما يستحيل عقلًا وما لم يعتد عليه أو لم يعرف كيفيته. لذلك يكون البحث المنضبط بجمع النصوص وفهم اللغة والتحقق من صحة الرواية، لا بمجرد الاستغراب أو التسليم لأي دعوى.</p><div class="grade">درجة الدليل: الإيمان بالغيب أصل قرآني قطعي الثبوت. أما حدود العقل وطرق الاستدلال فهي مباحث علمية وفلسفية يشرحها العلماء، وتختلف طريقة تقريرها بين المدارس.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ درء تعارض العقل والنقل؛ الموافقات للشاطبي؛ شرح العقيدة الطحاوية.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ﴾ [البقرة: 3]، وقوله: ﴿وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ﴾ [الإسراء: 36].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية. والشرح المتعلق بحدود العقل والغيب تقرير علمي مستفاد من مباحث العقيدة وأصول الاستدلال، وليس اقتباسًا حرفيًا من آية واحدة.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ مقدمة في أصول التفسير لابن تيمية؛ درء تعارض العقل والنقل؛ الموافقات للشاطبي.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>2. هل كل ما يحدث في العالم يحبه الله أو يرضاه؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>ليس كل ما يقع محبوبًا لله أو مرضيًا له؛ فما يقع في الكون لا يخرج عن علمه ومشيئته، لكن الله لا يحب الكفر والظلم ولا يأمر بهما.</p></div>
+<p>ينبغي التفريق بين الإرادة الكونية والإرادة الشرعية في شرح كثير من علماء العقيدة. فالإرادة الكونية تتعلق بما يقع في الوجود بمشيئة الله، سواء أكان مما يحبه شرعًا أم مما يكرهه. أما الإرادة الشرعية فتتعلق بما أمر الله به وأحبه ورضيه من الإيمان والطاعة والعدل.</p>
+<h4 class="subquestion">ما الفرق بين وقوع الشيء بمشيئة الله ومحبة الله له؟</h4><p>فوقوع الظلم في العالم لا يعني أن الله يحب الظلم أو يأمر به؛ بل نهى عنه وحرّمه. وقد يقع الشيء كونًا مع كونه محرمًا شرعًا، ويحاسب فاعله على اختياره.</p>
+<div class="verse quran-verse">﴿وَاللَّهُ لَا يُحِبُّ الْفَسَادَ﴾ [البقرة: 205].</div>
+<h4 class="subquestion">هل وقوع المعصية يعني أن الله يرضاها؟</h4><p><strong>توضيح وتحرير:</strong> فليس معنى أن الله قدّر وقوع أمر أنه أمر به أو أحبه من جهة الشرع. وهذه التفرقة تمنع الخلط بين سؤال: لماذا وقع الشيء في الكون؟ وسؤال: هل هذا الفعل جائز ومحبوب؟ فقد يقع فعل بإرادة فاعله التي خلقها الله، مع كون الفعل نفسه محرمًا والفاعل مسؤولًا عنه.</p><div class="grade">درجة الدليل: الآية المذكورة قطعية الثبوت. والتفريق بين الإرادة الكونية والشرعية اصطلاح عقدي مشهور عند طائفة من العلماء لتوضيح مجموع النصوص، وليس لفظًا واردًا في الآية نفسها.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ مجموع الفتاوى؛ شرح العقيدة الطحاوية؛ شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَاللَّهُ لَا يُحِبُّ الْفَسَادَ﴾ [البقرة: 205]، وقوله: ﴿وَلَا يَرْضَى لِعِبَادِهِ الْكُفْرَ﴾ [الزمر: 7].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية. أما مصطلحا «الإرادة الكونية» و«الإرادة الشرعية» فهما تقسيم اصطلاحي عند علماء العقيدة لشرح النصوص، وليسا لفظين واردين في هاتين الآيتين.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ شرح العقيدة الطحاوية؛ مجموع الفتاوى؛ شفاء العليل لابن القيم.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>3. هل يُحاسب الإنسان على الأفكار والخواطر التي تمر بعقله دون اختيار؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا يُؤاخذ الإنسان على الخواطر العابرة التي لا يختارها ولا يعمل بها؛ وإنما تكون المؤاخذة على ما يتعمده من قول أو فعل، مع التفصيل في العزم والعمل.</p></div>
+<p>فرّقت السنة بين الخاطر العابر الذي لا يختاره الإنسان ولا يتكلم به ولا يعمل به، وبين ما يتعمد الإنسان تبنيه أو قوله أو فعله. ففي الحديث الصحيح أن الله تجاوز لهذه الأمة عما حدثت به أنفسها ما لم تعمل أو تتكلم.</p>
+<h4 class="subquestion">ما الفرق بين الخاطر العابر والفعل الذي يختاره الإنسان؟</h4><p>ولا يعني ذلك أن كل ما يسمى «فكرة» معفى عنه؛ فالعزم المقصود، والتخطيط، والقول، والفعل لها أحكامها وتفاصيلها. لذلك لا يصح إطلاق حكم واحد على كل الحالات دون معرفة المقصود.</p>
+<h4 class="subquestion">متى يؤاخذ الإنسان على ما يدور في نفسه؟</h4><p><strong>توضيح وتحرير:</strong> ومن المهم ألا يحمّل الإنسان نفسه ذنبًا لمجرد ورود خاطر غير اختياري أو فكرة مزعجة لا يرضاها؛ فحديث النفس شيء، والرضا المتعمد بالفكرة والعزم المستقر والعمل بها شيء آخر. وتفاصيل العزم الذي لم يتحول إلى فعل فيها تفصيل فقهي، فلا تُعمّم الأحكام دون تمييز.</p><div class="grade">درجة الدليل: أصل التجاوز عن حديث النفس ما لم يُعمل به أو يُتكلم به ثابت في الصحيحين؛ فالحديث صحيح. أما التفريق بين الخاطر والعزم والتخطيط فتفصيل فقهي يحتاج إلى النظر في الحالة.</div>
+<div class="ref"><strong>المراجع:</strong> صحيح البخاري؛ صحيح مسلم، كتاب الإيمان؛ شرح النووي على صحيح مسلم؛ جامع العلوم والحكم لابن رجب.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse">قال النبي ﷺ: «إن الله تجاوز لأمتي ما حدثت به أنفسها، ما لم يتكلموا أو يعملوا به».</div>
+<strong>درجة الحديث:</strong> صحيح؛ رواه مسلم، وله رواية في صحيح البخاري.
+<br/><strong>موضع الرجوع:</strong> صحيح مسلم، كتاب الإيمان، حديث رقم 127؛ صحيح البخاري، حديث رقم 5269؛ شرح النووي على صحيح مسلم.
+<br/><strong>تنبيه:</strong> الحديث في الخواطر وحديث النفس، ولا يصح تعميمه لإسقاط المسؤولية عن التخطيط المتعمد أو الأقوال والأفعال.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«إن الله تجاوز لأمتي ما حدثت به أنفسها، ما لم يتكلموا أو يعملوا به»</p><div class="hadith-meta">الصحابي الراوي: أبو هريرة رضي الله عنه | القائل: رسول الله ﷺ | التخريج: صحيح مسلم، كتاب الإيمان، حديث (127)؛ وصحيح البخاري، حديث (5269). | الدرجة: صحيح، متفق عليه.</div></div></div>
+</div>
+</details>
+</section>
+<section class="chapter" id="quran">
+<h2>الباب الثالث: القرآن الكريم وعلومه</h2>
+<p class="chapter-intro">يختص هذا الباب بفهم القرآن وعلومه، مثل المحكم والمتشابه، والنسخ، وضوابط التفسير، وتكرار قصص الأنبياء. ويركز على بيان ما يدل عليه النص القرآني، وما هو اجتهاد تفسيري، مع تجنب تحميل الآيات ما لا تحتمل.</p>
+<details class="qa">
+<summary>1. لماذا توجد آيات محكمات وأخرى متشابهات؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>في القرآن آيات محكمات واضحات الدلالة، وآيات متشابهات تحتاج إلى ردّها للمحكم وفهمها في ضوء مجموع النصوص؛ وهذا من حكم تنوع الخطاب القرآني.</p></div>
+<p>بيّن القرآن أن منه آيات محكمات هن أصل الكتاب، وآيات متشابهات. والمحكم واضح الدلالة في موضعه، أما المتشابه فتتنوع صوره؛ فقد يخفى معناه على بعض الناس، أو يحتمل وجوهًا في الدلالة، أو يتعلق بأمر غيبي لا تُعرف كيفيته.</p>
+<h4 class="subquestion">ما المقصود بالمحكم والمتشابه؟</h4><div class="verse quran-verse">﴿هُوَ الَّذِي أَنْزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُحْكَمَاتٌ هُنَّ أُمُّ الْكِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ﴾ [آل عمران: 7].</div>
+<p>ومن المنهج السليم رد ما اشتبه إلى المحكم، وجمع الآيات المتعلقة بالموضوع، والرجوع إلى التفسير المعتبر. وقد اختلف المفسرون في بعض تفاصيل معنى المحكم والمتشابه وفي الوقف على قوله تعالى «إلا الله»؛ فلا ينبغي عرض تفسير واحد لكل هذه التفاصيل على أنه محل اتفاق.</p>
+<h4 class="subquestion">كيف نرد الآيات المتشابهة إلى المحكم؟</h4><p><strong>توضيح وتحرير:</strong> ولا يعني وصف آية بأنها متشابهة أنها بلا معنى أو أن فهمها ممتنع على الإطلاق؛ فقد يكون وجه التشابه نسبيًا يخفى على بعض الناس ويظهر للراسخين بالعلم. والضابط العملي هو عدم جعل المحتمل معارضًا للمحكم الواضح، وعدم اقتطاع آية من سياقها أو من مجموع القرآن.</p><div class="grade">درجة الدليل: آية آل عمران: 7 قطعية الثبوت. أما تعريف المحكم والمتشابه وبعض تفاصيل الوقف والتفسير ففيها أقوال معروفة بين المفسرين.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ جامع البيان للطبري؛ تفسير ابن كثير؛ البرهان في علوم القرآن للزركشي؛ الإتقان في علوم القرآن للسيوطي.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿هُوَ الَّذِي أَنْزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُحْكَمَاتٌ هُنَّ أُمُّ الْكِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ﴾ [آل عمران: 7].</div>
+<strong>نوع الدليل ودرجته:</strong> آية قرآنية. وتفاصيل تعريف المحكم والمتشابه وموضع الوقف في الآية مسائل تفسيرية وقع فيها بحث بين العلماء.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ جامع البيان للطبري عند آل عمران: 7؛ تفسير ابن كثير عند الآية؛ البرهان في علوم القرآن للزركشي؛ الإتقان للسيوطي.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>2. هل يوجد نسخ في القرآن؟ ولماذا وقع النسخ؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>نعم، يثبت جمهور علماء المسلمين وقوع النسخ في بعض الأحكام الشرعية، أي رفع حكم شرعي بدليل شرعي متأخر، لحكمة يعلمها الله؛ وليس معناه وجود تناقض في القرآن.</p></div>
+<p>النسخ في علم أصول الفقه هو رفع حكم شرعي بدليل شرعي متراخٍ عنه، وفق شروط يذكرها العلماء. ومن الحكم التي يذكرونها التدرج في التشريع ومراعاة أحوال المكلفين في مراحل نزول الوحي.</p>
+<h4 class="subquestion">ما معنى النسخ في اصطلاح علماء الأصول؟</h4><div class="verse quran-verse">﴿مَا نَنْسَخْ مِنْ آيَةٍ أَوْ نُنْسِهَا نَأْتِ بِخَيْرٍ مِنْهَا أَوْ مِثْلِهَا﴾ [البقرة: 106].</div>
+<p>لكن لا يصح وصف كل اختلاف ظاهري بين آيتين بأنه نسخ؛ فقد يكون الجمع بينهما ممكنًا، أو تكون إحداهما عامة والأخرى مخصصة، أو مطلقة والأخرى مقيدة. ولهذا كان إثبات النسخ بابًا علميًا دقيقًا، لا يُبنى على التخمين.</p>
+<h4 class="subquestion">كيف نميّز النسخ من التخصيص أو البيان؟</h4><p><strong>توضيح وتحرير:</strong> ومن أهم ضوابط هذا الباب أن النسخ لا يُثبت لمجرد اختلاف ظاهر بين نصين؛ بل لا بد من تعذر الجمع الصحيح ومعرفة المتقدم والمتأخر وثبوت الدليل. كما أن العلماء اختلفوا في عدّ بعض الأمثلة وفي إطلاق لفظ النسخ عليها، فقد يكون المثال تخصيصًا أو بيانًا لا نسخًا بالمعنى الأصولي الدقيق.</p><div class="grade">درجة الدليل: آية البقرة: 106 قطعية الثبوت. وأصل النسخ ثابت عند جمهور علماء أصول الفقه، لكن تعيين الآيات الناسخة والمنسوخة وتطبيق المصطلح على أمثلة بعينها محل بحث واختلاف.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ الناسخ والمنسوخ لأبي جعفر النحاس؛ الإتقان في علوم القرآن للسيوطي؛ الموافقات للشاطبي.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿مَا نَنْسَخْ مِنْ آيَةٍ أَوْ نُنْسِهَا نَأْتِ بِخَيْرٍ مِنْهَا أَوْ مِثْلِهَا﴾ [البقرة: 106].</div>
+<strong>نوع الدليل ودرجته:</strong> آية قرآنية. أما تعيين الآيات التي وقع فيها النسخ وشروطه فهو بحث تفسيري وأصولي يحتاج إلى فحص كل مثال على حدة.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ الناسخ والمنسوخ لأبي جعفر النحاس؛ الإتقان في علوم القرآن للسيوطي؛ الموافقات للشاطبي.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>3. هل يجوز تفسير القرآن بالرأي؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>يجوز التفسير بالرأي المنضبط القائم على اللغة وأصول التفسير والأدلة، ولا يجوز القول في القرآن بغير علم أو مخالفة النصوص الثابتة.</p></div>
+<p>ليس كل اجتهاد في التفسير ممنوعًا، وليس كل رأي مقبولًا. فالتفسير يحتاج إلى علم باللغة العربية، والسياق، وأسباب النزول، والقراءات، والسنة، وأقوال السلف، وقواعد الاستنباط. والاجتهاد المنضبط الذي يستند إلى هذه الأدوات يختلف عن تحميل الآية معنى يوافق هوى المفسر دون دليل.</p>
+<h4 class="subquestion">ما التفسير بالرأي الممنوع؟</h4><p>ومن أهم مناهج التفسير تفسير القرآن بالقرآن، ثم بالسنة، ثم بما صح عن الصحابة، مع الاستفادة من اللغة وسائر علوم التفسير. كما يجب التثبت من الروايات التي تُذكر في كتب التفسير.</p>
+<h4 class="subquestion">ما الضوابط التي تجعل التفسير منضبطًا؟</h4><p><strong>توضيح وتحرير:</strong> ومن علامات التفسير غير المنضبط أن يقرر صاحبه معنى جديدًا بلا شاهد لغوي أو سياقي، أو يصادم نصًا محكمًا، أو يبني المعنى على رواية لا تثبت. أما التدبر واستخراج الهدايات العامة فمطلوب، بشرط ألا يتحول إلى ادعاء أن هذا هو مراد الله القطعي من الآية دون علم.</p><div class="grade">درجة الدليل: وجوب التفسير بعلم ومنهج صحيح أصل مقرر عند علماء التفسير. أما ترتيب مصادر التفسير وتفاصيل حجية بعض الآثار ففيها مباحث علمية وتفصيلات.</div>
+<div class="ref"><strong>المراجع:</strong> مقدمة في أصول التفسير لابن تيمية؛ جامع البيان للطبري؛ تفسير ابن كثير؛ البرهان في علوم القرآن للزركشي؛ الإتقان للسيوطي.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ﴾ [الإسراء: 36]، وقوله: ﴿وَأَنْزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ﴾ [النحل: 44].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية. وقواعد التفسير المذكورة قواعد علمية استنبطها العلماء من مجموع النصوص واللغة وآثار السلف.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ مقدمة في أصول التفسير لابن تيمية؛ جامع البيان للطبري؛ البرهان للزركشي؛ الإتقان للسيوطي.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>4. لماذا تتكرر قصص الأنبياء في سور متعددة؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>تتكرر قصص الأنبياء لأن كل موضع يبرز عبرة أو جانبًا يناسب سياق السورة؛ والتكرار ليس تكرارًا بلا فائدة، بل تنويع في الهداية والتذكير.</p></div>
+<p>تكرار القصة في القرآن ليس مجرد إعادة حرفية؛ فقد تعرض كل سورة جانبًا يناسب مقصدها. فقصة موسى عليه السلام مثلًا تتناول مواجهة فرعون، وتثبيت المؤمنين، وتربية بني إسرائيل، والصبر على التكذيب، وغير ذلك من المعاني.</p>
+<h4 class="subquestion">لماذا تتكرر القصة الواحدة في سور مختلفة؟</h4><div class="verse quran-verse">﴿وَكُلًّا نَقُصُّ عَلَيْكَ مِنْ أَنْبَاءِ الرُّسُلِ مَا نُثَبِّتُ بِهِ فُؤَادَكَ﴾ [هود: 120].</div>
+<p>وقد تختلف طريقة العرض وطول التفصيل باختلاف سياق السورة، فيستخرج القارئ من القصة الواحدة دروسًا متعددة. ومن الخطأ افتراض أن كل موضع يذكر القصة يجب أن يورد جميع أحداثها بالتفصيل نفسه.</p>
+<h4 class="subquestion">كيف يخدم اختلاف السياق والهدف تكرار القصة؟</h4><p><strong>توضيح وتحرير:</strong> وتظهر فائدة التكرار أيضًا في اختلاف مقدار التفصيل: فقد تُذكر القصة موجزة في موضع، وتُبسط في موضع آخر، أو يبرز الحوار في سورة وتبرز العاقبة في سورة أخرى. ومن ثم تُفهم القصة على أكمل وجه بجمع مواضعها ومراعاة سياق كل سورة.</p><div class="grade">درجة الدليل: آية هود: 120 قطعية الثبوت وتذكر تثبيت فؤاد النبي. أما تعليل كل موضع من مواضع تكرار القصص بمقصد محدد فهو تحليل تفسيري يُراجع في سياق السورة.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ التحرير والتنوير لابن عاشور؛ نظم الدرر للبقاعي؛ مباحث في علوم القرآن لمناع القطان.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَكُلًّا نَقُصُّ عَلَيْكَ مِنْ أَنْبَاءِ الرُّسُلِ مَا نُثَبِّتُ بِهِ فُؤَادَكَ﴾ [هود: 120]، وقوله: ﴿لَقَدْ كَانَ فِي قَصَصِهِمْ عِبْرَةٌ لِأُولِي الْأَلْبَابِ﴾ [يوسف: 111].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية. وتحديد الأغراض البلاغية لكل موضع من القصة يُراجع في تفسير السورة وسياقها.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ التحرير والتنوير لابن عاشور؛ نظم الدرر للبقاعي؛ تفسير ابن كثير عند هود: 120 ويوسف: 111.
+</div>
+</div>
+</details>
+</section>
+<section class="chapter" id="sunnah">
+<h2>الباب الرابع: السنة النبوية وعلوم الحديث</h2>
+<p class="chapter-intro">يتناول هذا الباب السنة النبوية ومكانتها، وكيفية التعامل مع كتب الحديث والروايات، والتمييز بين الحديث الصحيح والحسن والضعيف، كما يوضح الفرق بين القرآن والحديث القدسي والحديث النبوي. والمقصود ترسيخ منهج التثبت من الرواية قبل الاستدلال بها.</p>
+<details class="qa">
+<summary>1. هل كل حديث موجود في كتاب من كتب الحديث صحيح؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا، ليس كل حديث في كل كتاب حديث صحيحًا؛ فكتب الحديث تضم الصحيح والحسن والضعيف بحسب منهج المصنف، ويجب التحقق من درجة الحديث ومصدره.</p></div>
+<p>لا. الحكم على الحديث لا يكون بمجرد وجوده في كتاب مشهور؛ فالمصنفات الحديثية تختلف مناهجها، وبعضها يضم الصحيح والحسن والضعيف، وقد يورد المصنف الحديث بأسانيد متعددة أو يذكره للاستشهاد. لذلك ينظر المتخصصون في اتصال السند، وعدالة الرواة وضبطهم، والشذوذ، والعلل.</p>
+<h4 class="subquestion">هل كل كتاب حديث يلتزم جمع الأحاديث الصحيحة فقط؟</h4><p>لصحيح البخاري وصحيح مسلم منزلة خاصة عند جمهور أهل السنة، أما وجود حديث في سنن أبي داود أو جامع الترمذي أو مسند أحمد فلا يعني وحده أنه صحيح؛ بل يُنظر في تخريجه وحكم أهل العلم عليه.</p>
+<h4 class="subquestion">كيف نتحقق من درجة الحديث قبل الاستدلال به؟</h4><p><strong>توضيح وتحرير:</strong> والتحقق العملي يبدأ بالرجوع إلى مصدر الحديث ولفظه وإسناده، ثم إلى حكم أهل الاختصاص، مع الانتباه إلى أن الحكم قد يختلف بسبب اختلاف الطرق أو الشواهد أو العلل الخفية. ولا يكفي نقل عبارة «رواه فلان»؛ فالعزو يحدد مكان الحديث، لكنه لا يساوي الحكم بصحته.</p><div class="grade">درجة الدليل: قواعد نقد الأسانيد والمتون مقررة في علم مصطلح الحديث. الحكم على حديث معين يتطلب فحص إسناده وطرقه وعلله؛ ولا يكفي اسم الكتاب وحده في كل الحالات.</div>
+<div class="ref"><strong>المراجع:</strong> صحيح البخاري؛ صحيح مسلم؛ مقدمة ابن الصلاح؛ نزهة النظر لابن حجر؛ تدريب الراوي للسيوطي.</div>
+<div class="proof"><strong>الدليل والمنهج:</strong>
+<p>هذا السؤال يتناول قاعدة من علم مصطلح الحديث، وليس حديثًا نبويًا واحدًا. لذلك لا توجد «درجة حديث» لهذه القاعدة نفسها. المحدثون يدرسون اتصال السند، وعدالة الرواة وضبطهم، والشذوذ والعلة، ثم يحكمون على الرواية وفق القرائن والقواعد.</p>
+<strong>درجة الحديث:</strong> لا ينطبق؛ الكلام هنا عن منهج نقد الروايات، لا عن متن حديث مستشهد به.
+<br/><strong>موضع الرجوع:</strong> مقدمة ابن الصلاح في علوم الحديث، النوع الأول في معرفة الصحيح؛ نزهة النظر لابن حجر؛ تدريب الراوي للسيوطي. وللتطبيق العملي تُراجع بطاقة الحديث وتخريجه في الموسوعة الحديثية بالدرر السنية.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>2. ما الفرق بين القرآن والحديث القدسي والحديث النبوي؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>القرآن كلام الله المتعبد بتلاوته والمعجز بلفظه؛ والحديث القدسي ينقله النبي عن ربه وليس قرآنًا؛ والحديث النبوي ما أضيف إلى النبي من قول أو فعل أو تقرير أو صفة.</p></div>
+<p><strong>القرآن الكريم:</strong> كلام الله المنزل على النبي محمد صلى الله عليه وسلم، المتعبد بتلاوته، المنقول إلينا بالتواتر، وله خصائص وأحكام لا تثبت للحديث.</p>
+<p><strong>الحديث القدسي:</strong> ما يرويه النبي صلى الله عليه وسلم عن ربه، وليس قرآنًا، ولا يأخذ أحكام القرآن الخاصة. والأحاديث القدسية تُدرس أسانيدها، فقد يكون الحديث صحيحًا أو حسنًا أو ضعيفًا.</p>
+<h4 class="subquestion">ما الذي يميز القرآن الكريم عن الحديث القدسي؟</h4><p><strong>الحديث النبوي:</strong> ما أضيف إلى النبي صلى الله عليه وسلم من قول أو فعل أو تقرير أو صفة. وتُبحث صحة نسبته إليه بأدوات علم الحديث.</p>
+<h4 class="subquestion">ما الفرق بين الحديث القدسي والحديث النبوي؟</h4><p>إذن لا يجوز وضع الحديث القدسي في المصحف أو معاملته معاملة القرآن في أحكام التلاوة والتعبد، كما لا يصح افتراض صحة كل حديث قدسي لمجرد وصفه بالقدسي.</p>
+<p><strong>توضيح وتحرير:</strong> ومن المسائل التي يذكرها أهل العلم أن الحديث القدسي ليس له حكم القرآن في الإعجاز والتعبد بالتلاوة والتواتر وأحكام المصحف. كما اختلف العلماء في التعبير عن كون لفظ الحديث القدسي ومعناه من الله أو أن المعنى من الله واللفظ من النبي؛ لذا فالأحوط عرض المسألة بوصفها محل بحث، مع الاتفاق على أنه ليس قرآنًا.</p><div class="grade">درجة الدليل: التفريق بين القرآن والحديث القدسي والحديث النبوي مقرر في علوم القرآن والحديث. وصف حديث قدسي بعينه بالصحة أو الضعف يتطلب تخريج ذلك الحديث نفسه.</div>
+<div class="ref"><strong>المراجع:</strong> مناهل العرفان في علوم القرآن للزرقاني؛ مباحث في علوم القرآن لمناع القطان؛ مقدمة ابن الصلاح؛ النكت على كتاب ابن الصلاح لابن حجر.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَمَا كَانَ لِيَ عَلَيْكُمْ مِنْ سُلْطَانٍ إِلَّا أَنْ دَعَوْتُكُمْ فَاسْتَجَبْتُمْ لِي﴾ [إبراهيم: 22].</div>
+<div class="verse quran-verse">﴿إِنَّهُ لَيْسَ لَهُ سُلْطَانٌ عَلَى الَّذِينَ آمَنُوا وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ﴾ [النحل: 99].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية. والمعنى المستفاد أن الوسوسة والدعوة لا تساويان الإكراه.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ تفسير الطبري وابن كثير عند إبراهيم: 22 والنحل: 99–100.
+</div>
+</div>
+</details>
+</section>
+<section class="chapter" id="unseen">
+<h2>الباب الخامس: الأنبياء والملائكة وعالم الغيب</h2>
+<p class="chapter-intro">يعرض هذا الباب مسائل النبوة وعالم الغيب، وما ثبت في شأن الجن والشيطان والملائكة، وحدود ما يمكن للإنسان معرفته عن هذا العالم. والقاعدة فيه الوقوف عند ما ثبت بالقرآن والسنة الصحيحة، وعدم الجزم بتفاصيل غيبية لا دليل عليها.</p>
+<details class="qa">
+<summary>1. هل يعلم الجن الغيب؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا، الجن لا يعلمون الغيب؛ وقد دل القرآن على أن الجن لم يعلموا موت سليمان إلا بعد أن خرّ، فظهر لهم أنهم لا يعلمون الغيب.</p></div>
+<p>علم الغيب المطلق لله وحده، ولا يملك الجن علمًا مستقلًا بالغيب. وقد ذكر القرآن قصة سليمان عليه السلام وموته، وأن الجن لم يعلموا بموته إلا بعد أن ظهر لهم ذلك.</p>
+<h4 class="subquestion">ما الذي أخبرنا به الوحي عن علم الجن؟</h4><div class="verse quran-verse">﴿فَلَمَّا خَرَّ تَبَيَّنَتِ الْجِنُّ أَنْ لَوْ كَانُوا يَعْلَمُونَ الْغَيْبَ مَا لَبِثُوا فِي الْعَذَابِ الْمُهِينِ﴾ [سبأ: 14].</div>
+<p>وعليه، فادعاء شخص أنه يعرف الغيب عن طريق الجن لا يصبح صحيحًا لمجرد ادعائه. ويجب التفريق بين خبر عادي قد يصيب أو يخطئ وبين علم الغيب الذي اختص الله به نفسه.</p>
+<h4 class="subquestion">لماذا لا يصح نسبة علم الغيب إلى الجن؟</h4><p><strong>توضيح وتحرير:</strong> والآية لا تنفي أن يقع للجن علم بأمر جزئي بطريق المشاهدة أو الخبر أو التخمين؛ المنفي هو امتلاكهم علم الغيب. لذلك لا يجوز تصديق من يزعم الاطلاع على الأسرار الغيبية عن طريقهم، ولا بناء قرارات الناس أو اتهاماتهم على مثل هذه المزاعم.</p><div class="grade">درجة الدليل: آية سبأ: 14 قطعية الثبوت، وهي دليل صريح على أن الجن لم يعلموا موت سليمان قبل انكشافه لهم. أما تعميمات أخرى عن أخبار الجن فتحتاج إلى دليل مستقل.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ تفسير الطبري؛ تفسير ابن كثير؛ فتح الباري لابن حجر، أبواب الكهانة وما يتعلق بها.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿قُلْ لَا يَعْلَمُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ الْغَيْبَ إِلَّا اللَّهُ﴾ [النمل: 65].</div>
+<div class="verse quran-verse">وقصة موت سليمان: ﴿فَلَمَّا خَرَّ تَبَيَّنَتِ الْجِنُّ أَنْ لَوْ كَانُوا يَعْلَمُونَ الْغَيْبَ مَا لَبِثُوا فِي الْعَذَابِ الْمُهِينِ﴾ [سبأ: 14].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ تفسير الطبري وابن كثير عند النمل: 65 وسبأ: 14.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>2. هل يستطيع الشيطان إجبار الإنسان على المعصية؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا يستطيع الشيطان إجبار الإنسان على المعصية؛ لكنه يوسوس ويدعو ويزيّن، والإنسان مسؤول عن اختياره.</p></div>
+<p>وظيفة الشيطان الأساسية هي الوسوسة والتزيين والدعوة إلى المعصية، وليس له سلطان مطلق يجبر به الإنسان على اختياره. وقد حكى القرآن كلام الشيطان يوم القيامة بأنه دعا الناس فاستجابوا له.</p>
+<h4 class="subquestion">ما حدود وسوسة الشيطان ووسائل إغوائه؟</h4><div class="verse quran-verse">﴿وَمَا كَانَ لِيَ عَلَيْكُمْ مِنْ سُلْطَانٍ إِلَّا أَنْ دَعَوْتُكُمْ فَاسْتَجَبْتُمْ لِي﴾ [إبراهيم: 22].</div>
+<p>ولهذا أمر الله بالاستعاذة به، ومجاهدة الوسوسة، وعدم اتباع خطوات الشيطان. ولا يعني ذلك أن كل وسوسة يمر بها الإنسان دليل على فساد إيمانه؛ فالخواطر غير المختارة ليست كالأفعال المتعمدة.</p>
+<h4 class="subquestion">هل يملك الشيطان إجبار الإنسان على المعصية؟</h4><p><strong>توضيح وتحرير:</strong> وقد تكون للشيطان وسائل إغواء وتأثير بالوسوسة والتزيين، لكن هذا لا يساوي سلب إرادة الإنسان أو رفع مسؤوليته. وفي المقابل لا ينبغي أن ينسب الإنسان كل خطأ إلى الوسوسة؛ بل يراجع اختياره ويتوب ويستعين بالله ويتجنب الأسباب التي تجره إلى المعصية.</p><div class="grade">درجة الدليل: آية إبراهيم: 22 قطعية الثبوت. وهي تدل على نفي سلطان الإكراه الذي يحتج به الشيطان عن نفسه يوم القيامة، مع بقاء تفاصيل الوسوسة والتكليف مبينة في نصوص أخرى.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ تفسير ابن كثير؛ صحيح البخاري؛ صحيح مسلم؛ تلبيس إبليس لابن الجوزي.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَمَا كَانَ لِيَ عَلَيْكُمْ مِنْ سُلْطَانٍ إِلَّا أَنْ دَعَوْتُكُمْ فَاسْتَجَبْتُمْ لِي﴾ [إبراهيم: 22].</div>
+<div class="verse quran-verse">﴿إِنَّ عِبَادِي لَيْسَ لَكَ عَلَيْهِمْ سُلْطَانٌ﴾ [الإسراء: 65].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية. ويُفهم منها التفريق بين الوسوسة والإكراه، مع وجود تفصيلات في معنى السلطان والاستثناء.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ تفسير الطبري؛ تفسير ابن كثير عند إبراهيم: 22 والإسراء: 65.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>3. لماذا لا نرى الملائكة في صورهم الأصلية؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا نرى الملائكة عادةً في صورهم الأصلية لأن الله جعل لهم عالمًا غيبيًا، وقد يتمثلون أحيانًا في صورة بشر بإذن الله كما ورد في النصوص.</p></div>
+<p>الملائكة من عالم الغيب، والإيمان بهم أصل من أصول الإيمان. وعدم رؤيتنا لهم في هيئتهم الأصلية لا ينفي وجودهم؛ فليس كل موجود يلزم أن تدركه حواس الإنسان. وقد أخبر القرآن عن تمثل الملك لمريم عليها السلام بشرًا سويًا، كما ورد في حديث جبريل أنه جاء في صورة رجل.</p>
+<h4 class="subquestion">ما الصورة الأصلية للملائكة كما وردت في النصوص؟</h4><div class="verse quran-verse">﴿فَأَرْسَلْنَا إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا﴾ [مريم: 17].</div>
+<p>ولا ينبغي أن نخترع أوصافًا تفصيلية لهيئات الملائكة أو أعمالهم لم يثبت بها دليل. نؤمن بما جاء به الوحي، ونتوقف فيما لم يرد به علم.</p>
+<h4 class="subquestion">هل يمكن أن تتشكل الملائكة في صورة بشر؟</h4><p><strong>توضيح وتحرير:</strong> والنصوص التي تصف الملائكة أو تذكر أجنحتهم وأعمالهم يُؤخذ منها بقدر ما ورد، من غير تشبيههم بالبشر أو تخيل تفاصيل لم يذكرها الوحي. كما أن تمثل الملك في صورة بشر لا يعني أن حقيقته الأصلية بشرية، بل هو تمثل بإذن الله.</p><div class="grade">درجة الدليل: آية مريم: 17 قطعية الثبوت. وحديث جبريل في صحيح مسلم حديث صحيح. أما وصف الهيئة الأصلية للملائكة فيُقتصر فيه على ما ثبت بالنصوص.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ صحيح مسلم، كتاب الإيمان، حديث جبريل؛ شرح صحيح مسلم للنووي؛ فتح الباري لابن حجر.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿فَأَرْسَلْنَا إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا﴾ [مريم: 17].</div>
+<div class="verse">ومن حديث جبريل: «فإنه جبريل أتاكم يعلمكم دينكم».</div>
+<strong>درجة الحديث:</strong> صحيح؛ رواه مسلم.
+<br/><strong>موضع الرجوع:</strong> صحيح مسلم، كتاب الإيمان، حديث رقم 8؛ تفسير ابن كثير عند مريم: 17.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«فإنه جبريل أتاكم يعلمكم دينكم»</p><div class="hadith-meta">الصحابي الراوي: عمر بن الخطاب رضي الله عنه | القائل: رسول الله ﷺ | التخريج: صحيح مسلم، كتاب الإيمان، حديث (8)، ضمن حديث جبريل. | الدرجة: صحيح.</div></div></div>
+</div>
+</details>
+</section>
+<section class="chapter" id="afterlife">
+<h2>الباب السادس: الآخرة والحساب والشفاعة</h2>
+<p class="chapter-intro">يناقش هذا الباب مسائل الآخرة والرحمة والمغفرة والشفاعة، ويبين ما تقرره النصوص بشأن سعة مغفرة الله وشروط الشفاعة وإذنه بها. كما يفرق بين الرجاء المشروع والاعتقاد الذي لا يسنده دليل، ويعرض النصوص ذات الصلة مجتمعة.</p>
+<details class="qa">
+<summary>1. هل يغفر الله جميع الذنوب؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>نعم، يغفر الله الذنوب لمن تاب ورجع إليه، وهو يغفر ما دون الشرك لمن يشاء؛ أما من مات على الشرك دون توبة فلا يُغفر له بنص القرآن.</p></div>
+<p>فتح الله باب التوبة لعباده، ونهى عن اليأس من رحمته. قال تعالى:</p>
+<div class="verse quran-verse">﴿قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَى أَنْفُسِهِمْ لَا تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ﴾ [الزمر: 53].</div>
+<h4 class="subquestion">ما الذنوب التي يغفرها الله بالتوبة؟</h4><p>وتُفهم الآية مع النصوص الأخرى التي تأمر بالتوبة وتبين خطر الشرك إذا مات الإنسان عليه دون توبة. فمن تاب توبة صادقة قبل حضور الموت تاب الله عليه، والتوبة تتضمن الإقلاع عن الذنب والندم والعزم على عدم العودة، ورد حقوق الناس إن تعلقت المعصية بحقوقهم.</p>
+<h4 class="subquestion">ما حكم من مات على الشرك دون توبة؟</h4><p>ولا ينبغي أن تتحول سعة الرحمة إلى استهانة بالذنوب، ولا أن يتحول الخوف من الذنب إلى قنوط ويأس.</p>
+<p><strong>توضيح وتحرير:</strong> والتوبة الصادقة ليست مجرد لفظ؛ بل تتضمن ترك الذنب والندم عليه والعزم على عدم الرجوع إليه، وإذا تعلّق الذنب بحق آدمي وجب رد الحق أو طلب المسامحة بحسب القدرة. ومن وقع في الذنب مرة أخرى بعد توبة صادقة فعليه أن يجدد التوبة ولا يقنط من رحمة الله.</p><div class="grade">درجة الدليل: آية الزمر: 53 قطعية الثبوت، ويجب فهمها مع سائر آيات التوبة والمغفرة. وأحاديث التوبة في صحيح مسلم صحيحة. والتفاصيل الفقهية لرد المظالم مبسوطة في كتب الفقه.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ تفسير الطبري؛ تفسير ابن كثير؛ رياض الصالحين؛ صحيح مسلم، كتاب التوبة.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَى أَنْفُسِهِمْ لَا تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا﴾ [الزمر: 53].</div>
+<div class="verse quran-verse">ويُقرأ معها: ﴿إِنَّ اللَّهَ لَا يَغْفِرُ أَنْ يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَلِكَ لِمَنْ يَشَاءُ﴾ [النساء: 48].</div>
+<strong>نوع الدليل ودرجته:</strong> آيتان قرآنيتان. وبيّن المفسرون أن آية الزمر في قبول توبة من تاب، أما من مات على الشرك دون توبة فله حكم آية النساء.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم؛ تفسير الطبري وابن كثير عند الزمر: 53؛ تفسير ابن كثير عند النساء: 48؛ صحيح مسلم، كتاب التوبة.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>2. هل تعني الشفاعة أن أحدًا يستطيع تغيير حكم الله؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا، الشفاعة لا تغيّر حكم الله ولا تستقل عنه؛ بل لا تكون إلا بإذنه ورضاه، فهي من رحمة الله وإكرامه لمن يأذن له.</p></div>
+<p>الشفاعة ثابتة في النصوص، لكنها لا تقع باستقلال عن الله ولا بالإجبار عليه؛ بل لا تكون إلا بإذنه ورضاه. فهي من رحمة الله التي يأذن بها لمن يشاء، وليست سلطة يملكها مخلوق من تلقاء نفسه.</p>
+<div class="verse quran-verse">﴿مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ﴾ [البقرة: 255].</div>
+<h4 class="subquestion">هل تقع الشفاعة إلا بإذن الله؟</h4><div class="verse quran-verse">﴿يَوْمَئِذٍ لَا تَنْفَعُ الشَّفَاعَةُ إِلَّا مَنْ أَذِنَ لَهُ الرَّحْمَنُ وَرَضِيَ لَهُ قَوْلًا﴾ [طه: 109].</div>
+<h4 class="subquestion">ما الذي تثبته النصوص في شأن الشفاعة؟</h4><p>ولهذا تجمع النصوص بين إثبات الشفاعة ونفي استقلال أي مخلوق بها. وتفاصيل أنواع الشفاعة وشروطها تُدرس بجمع الآيات والأحاديث الصحيحة، لا بأخذ نص واحد بمعزل عن بقية النصوص.</p>
+<p><strong>توضيح وتحرير:</strong> والشفاعة ليست حقًا مضمونًا يفرضه الشافع، ولا وسيلة لتجاوز عدل الله؛ بل هي تابعة لإذن الله وحكمته ورضاه. ولهذا لا يصح التعلق بالأشخاص أو طلب الشفاعة منهم على وجه يجعل لهم تصرفًا مستقلًا، وإنما يُسأل الله وحده ويُرجى فضله.</p><div class="grade">درجة الدليل: آيتا البقرة: 255 وطه: 109 قطعيّتا الثبوت. وأصل الشفاعة ثابت بأحاديث صحيحة في الصحيحين، مع كونها بإذن الله ورضاه.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم؛ صحيح البخاري، كتاب التوحيد؛ صحيح مسلم، كتاب الإيمان؛ شرح العقيدة الطحاوية؛ فتح الباري لابن حجر.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ﴾ [البقرة: 255]، وقوله: ﴿يَوْمَئِذٍ لَا تَنْفَعُ الشَّفَاعَةُ إِلَّا مَنْ أَذِنَ لَهُ الرَّحْمَنُ وَرَضِيَ لَهُ قَوْلًا﴾ [طه: 109].</div>
+<div class="verse">ومن السنة: «أسعد الناس بشفاعتي يوم القيامة من قال لا إله إلا الله خالصًا من قلبه».</div>
+<strong>درجة الحديث:</strong> صحيح؛ رواه البخاري.
+<br/><strong>موضع الرجوع:</strong> صحيح البخاري، كتاب العلم، حديث رقم 99؛ القرآن الكريم، البقرة: 255 وطه: 109؛ شرح العقيدة الطحاوية.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«أسعد الناس بشفاعتي يوم القيامة من قال لا إله إلا الله خالصًا من قلبه»</p><div class="hadith-meta">الصحابي الراوي: أبو هريرة رضي الله عنه | القائل: رسول الله ﷺ | التخريج: صحيح البخاري، كتاب العلم، حديث (99). | الدرجة: صحيح.</div></div></div>
+</div>
+</details>
+</section>
+<section class="chapter" id="ancient-peoples">
+<h2>الباب السابع: الأمم الغابرة والأقوام التي ذكرها القرآن</h2>
+<p>هذا الباب يدرس الأمم التي ورد ذكرها في القرآن مع التفريق بين النص الثابت، وأقوال المفسرين، والروايات التاريخية المختلف فيها. إذا لم يذكر القرآن اسم نبي قوم أو مكانهم، ولم يثبت حديث صحيح يحدد ذلك، فسوف نقول بوضوح: لا نعلم على وجه القطع.</p>
+<div class="note"><strong>قاعدة علمية:</strong> ورود خبر في كتاب تفسير لا يعني تلقائيًا أنه ثابت؛ فقد يذكر المفسر أقوالًا متعددة أو أخبارًا بإسناد ضعيف. لذلك سنبيّن الخلاف ولا نحوّل الظن إلى حقيقة.</div>
+<details class="qa">
+<summary>1. من هو تُبَّع؟ وهل كان نبيًا أم ملكًا؟ ومن هم قومه؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>تُبَّع لقب لملوك من حمير في اليمن، والقرآن ذكر قوم تُبَّع وذم تكذيبهم للرسل. واختلف العلماء هل تُبَّع نفسه نبي أم ملك صالح؛ ولا يوجد نص قاطع يحسم نبوته أو يحدد نبي قومه.</p></div>
+<h3>الإجابة الأساسية</h3>
+<p>تُبَّع لقب ارتبط بملوك حمير في اليمن، وليس بالضرورة اسم شخص واحد. ويذكر القرآن «قوم تُبَّع» ضمن الأمم التي كذبت الرسل، لكنه لا يذكر اسم النبي الذي أرسل إليهم ولا تفاصيل قصتهم.</p>
+<div class="verse quran-verse">﴿أَهُمْ خَيْرٌ أَمْ قَوْمُ تُبَّعٍ وَالَّذِينَ مِنْ قَبْلِهِمْ أَهْلَكْنَاهُمْ إِنَّهُمْ كَانُوا مُجْرِمِينَ﴾ [الدخان: 37].</div>
+<div class="verse quran-verse">﴿وَأَصْحَابُ الْأَيْكَةِ وَقَوْمُ تُبَّعٍ كُلٌّ كَذَّبَ الرُّسُلَ فَحَقَّ وَعِيدِ﴾ [ق: 14].</div>
+<h4 class="subquestion">ماذا ذكر القرآن عن تُبَّع وقومه؟</h4><h3>هل تُبَّع نفسه نبي؟</h3>
+<p>اختلفت أقوال العلماء: نُقل عن بعض السلف أنه نبي، ونُقل عن آخرين أنه ملك صالح أو ملك أسلم، وأن الذم في الآيات متعلق بقومه المكذبين. وذكر الطبري والقرطبي وابن كثير اختلاف الروايات في شخصه ودينه. ولا يوجد نص قرآني صريح يسميه نبيًا؛ لذلك لا نجزم بنبوته.</p>
+<p>كما أن لقب «تُبَّع» أطلق على ملوك متعددين، ولهذا لا يصح جمع كل الأخبار التاريخية في شخصية واحدة دون دليل.</p>
+<h4 class="subquestion">هل ثبت أن تُبَّع نبي أو ملك بعينه؟</h4><h3>الحديث الوارد فيه ودرجته</h3>
+<div class="verse">«لا تسبوا تُبَّعًا؛ فإنه قد كان أسلم».</div>
+<p><strong>التخريج:</strong> رواه أحمد في المسند (22880)، والطبراني في المعجم الكبير (6013)، وله طرق أخرى.</p>
+<h4 class="subquestion">ما درجة الحديث الوارد في النهي عن سب تُبَّع؟</h4><p><strong>درجة الحديث:</strong> مختلف في تقويته. في طريق سهل بن سعد راوٍ ضعيف هو ابن لهيعة، ومعه عمرو بن جابر، وقد ضعف الهيثمي هذا الطريق، بينما ذكر ابن حجر أن له شاهدًا وأن طريق ابن عباس أصلح. وحسّنه بعض أهل التخريج بمجموع طرقه. لذلك لا نصفه بأنه صحيح متفق عليه.</p>
+<h3>ما الذي نعرفه يقينًا؟</h3>
+<p>المتيقن أن القرآن ذكر قوم تُبَّع وذم تكذيبهم للرسل. أما تعيين الملك المقصود، ونبوته، واسم النبي الذي أرسل إلى قومه، وتفاصيل إسلامه، فليست أمورًا حُسمت بنص قطعي.</p>
+<p><strong>توضيح وتحرير:</strong> ومن المهم التمييز بين لقب تُبَّع وبين اسم ملك بعينه؛ فالمصادر التاريخية تذكر أكثر من ملك حميري بهذا اللقب، ولذلك فإن الأخبار المنسوبة إلى «تُبَّع» قد لا تتعلق بالشخص نفسه. والقدر الذي يثبته القرآن هو ذكر قوم تُبَّع ضمن المكذبين، أما تعيين الملك وتفاصيل سيرته فيحتاج إلى نقد الروايات التاريخية.</p><div class="ref"><strong>المراجع:</strong> القرآن الكريم، الدخان: 37 وق: 12–14؛ تفسير الطبري عند الدخان: 37؛ تفسير القرطبي؛ تفسير ابن كثير؛ البداية والنهاية لابن كثير؛ مسند أحمد 22880؛ المعجم الكبير للطبراني 6013؛ مجمع الزوائد 8/79؛ فتح الباري 8/434؛ الموسوعة الحديثية بالدرر السنية.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿أَهُمْ خَيْرٌ أَمْ قَوْمُ تُبَّعٍ وَالَّذِينَ مِنْ قَبْلِهِمْ أَهْلَكْنَاهُمْ إِنَّهُمْ كَانُوا مُجْرِمِينَ﴾ [الدخان: 37]، وقوله: ﴿وَقَوْمُ تُبَّعٍ كُلٌّ كَذَّبَ الرُّسُلَ فَحَقَّ وَعِيدِ﴾ [ق: 14].</div>
+<div class="verse">ومن الحديث الوارد: «لا تسبوا تُبَّعًا؛ فإنه قد كان أسلم».</div>
+<strong>درجة الحديث:</strong> مختلف في تقويته؛ فلا يُعرض على أنه صحيح متفق عليه، وقد ضعّف بعض أهل العلم طرقًا منه وقوّاه آخرون بمجموع الشواهد.
+<br/><strong>ما يثبته الدليل:</strong> القرآن يذكر قوم تُبَّع ويصفهم بتكذيب الرسل؛ ولا يحدد اسم تُبَّع المقصود ولا يصرح بنبوته أو باسم رسولهم.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم، الدخان: 37 وق: 14؛ تفسير الطبري والقرطبي وابن كثير عند الآيتين؛ مسند أحمد (22880)؛ المعجم الكبير للطبراني (6013)؛ مجمع الزوائد 8/79؛ فتح الباري 8/434.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>«لا تسبوا تُبَّعًا؛ فإنه قد كان أسلم»</p><div class="hadith-meta">الصحابي الراوي: سهل بن سعد الساعدي رضي الله عنه | القائل: رسول الله ﷺ | التخريج: مسند أحمد (22880)؛ المعجم الكبير للطبراني (6013)؛ وله شاهد من حديث ابن عباس. | الدرجة: مختلف في تقويته: في طريق سهل ضعف، وقوّاه بعض أهل العلم بالشواهد؛ فلا يُجزم بصحته.</div></div></div>
+</div>
+</details>
+<details class="qa">
+<summary>2. من هم أصحاب الرَّس؟ وهل نعرف نبيهم ومكانهم؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>أصحاب الرس قوم ذكرهم القرآن ضمن المكذبين للرسل، لكن القرآن لم يحدد مكانهم ولا اسم نبيهم. وقد تعددت أقوال المفسرين في هويتهم، ولا يثبت تفصيل واحد منها بدليل صحيح قاطع.</p></div>
+<h3>الإجابة الأساسية</h3>
+<p>أصحاب الرس قوم ذكرهم الله ضمن أمم كذبت الرسل. والرس في اللغة يطلق على البئر، لكن القرآن لم يذكر اسم بلدهم أو نبيهم أو تفاصيل قصتهم.</p>
+<div class="verse quran-verse">﴿وَعَادًا وَثَمُودَ وَأَصْحَابَ الرَّسِّ وَقُرُونًا بَيْنَ ذَٰلِكَ كَثِيرًا﴾ [الفرقان: 38].</div>
+<div class="verse quran-verse">﴿كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَأَصْحَابُ الرَّسِّ وَثَمُودُ﴾ [ق: 12].</div>
+<h4 class="subquestion">ما الذي نعرفه من القرآن عن أصحاب الرس؟</h4><h3>أقوال المفسرين في هويتهم</h3>
+<ul>
+<li>قيل: هم قوم ألقوا نبيهم في بئر، ويمكن أن يكون نبيهم حنظلة بن صفوان.</li>
+<li>وقيل: هم قرية من قرى ثمود، ونُقل هذا في بعض الروايات عن ابن عباس.</li>
+<li>وقيل: موضعهم في اليمامة، في قرية الفلج، ونُقل عن قتادة.</li>
+<li>وقيل: هم قوم النبي حنظلة بن صفوان، وهو قول مروي عن سعيد بن جبير. وتذكر روايات تاريخية أن حنظلة كان نبيهم، وأنهم كذبوه، وتفصل بعض الأخبار في قصة طائر عظيم كان يؤذيهم ودعائه عليه. وهذه التفاصيل ليست ثابتة بحديث نبوي صحيح صريح.</li>
+<li>وربطهم بعض المفسرين بأصحاب يس أو بأصحاب الأخدود، وهي تعيينات مختلف فيها.</li>
+</ul>
+<p>جمع الطبري هذه الأقوال في تفسير الفرقان: 38، وهو ما يوضح أن الخلاف قديم، وأنه لا توجد قصة واحدة متفق على تفاصيلها.</p>
+<h3>القول بأن نبيهم حنظلة بن صفوان</h3>
+<h4 class="subquestion">هل ثبت اسم نبيهم أو مكانهم؟</h4><p>من الأقوال الواردة في تعيين نبي أصحاب الرس أنهم كانوا قوم حنظلة بن صفوان. وقد نُقل هذا القول عن سعيد بن جبير في كتب التفسير، وذكره ابن عساكر ضمن خبر تاريخي نقله عن تاريخ ابن خرداذبة. وتذكر بعض الروايات أن حنظلة دعا على طائر عظيم كان يؤذي قومه، ثم كذبوه وقتلوه، فأهلكهم الله. وينبغي التفريق بين أصل القول وبين تفاصيل القصة؛ فهذه أخبار تفسيرية وتاريخية، ولا يثبت فيها حديث نبوي صحيح صريح، كما أن الخبر التاريخي الذي أورده ابن عساكر ليس إسنادًا صحيحًا تقوم به حجة قاطعة.</p>
+<p><strong>درجة الخبر:</strong> قول مروي في التفسير والتاريخ، وليس حديثًا نبويًا صحيحًا. لذلك يصح أن نقول: «قيل إن نبي أصحاب الرس حنظلة بن صفوان»، ولا يصح الجزم بأن هذا هو الثابت قطعًا.</p>
+<h3>هل عُرف نبيهم على وجه القطع؟</h3>
+<h4 class="subquestion">ما أشهر الأقوال التفسيرية في هويتهم؟</h4><p>لا يوجد دليل صحيح صريح يحسم اسم نبي أصحاب الرس. وإلى جانب قول حنظلة بن صفوان، وردت أقوال أخرى تربطهم بشعيب عليه السلام أو بصاحب يس، أو تذكر نبيًا غير مسمى. ولذلك يبقى تعيين نبيهم موضع خلاف، ولا نجزم باسم واحد.</p>
+<h3>هل توجد أحاديث صحيحة تفصل قصتهم؟</h3>
+<p>لا نعرف حديثًا نبويًا صحيحًا صريحًا يحدد مكان أصحاب الرس أو اسم نبيهم أو تفاصيل هلاكهم. وأكثر التفاصيل المتداولة آثار وأخبار تفسيرية متفاوتة الثبوت.</p>
+<p><strong>توضيح وتحرير:</strong> والمنهج الأدق في هذه المسألة أن نثبت ما نص عليه القرآن: وجود أصحاب الرس وكونهم من المكذبين، ثم نعرض تعيين المكان والنبي والقصة بصيغة «قيل» مع بيان مصدر القول. ولا يصح تحويل رواية تفسيرية أو خبر تاريخي إلى حقيقة قطعية، كما لا يصح الجزم بأن حنظلة بن صفوان هو نبيهم؛ فهذا قول منقول لا يثبت فيه حديث صحيح صريح.</p><div class="ref"><strong>المراجع:</strong><br/>1. القرآن الكريم: سورة الفرقان، الآية 38؛ وسورة ق، الآية 12.<br/>2. الطبري، <em>جامع البيان عن تأويل آي القرآن</em>، تفسير سورة الفرقان، الآية 38، ج19، ص269–270 (بحسب ترقيم بعض الطبعات؛ وقد يختلف رقم الصفحة باختلاف الطبعة).<br/>3. ابن كثير، <em>تفسير القرآن العظيم</em>، تفسير سورة الفرقان، الآية 38، وتفسير سورة ق، الآيتان 12–14.<br/>4. البغوي، <em>معالم التنزيل</em>، تفسير سورة الفرقان، الآية 38.<br/>5. ابن عطية، <em>المحرر الوجيز</em>، تفسير سورة الفرقان، الآية 38.<br/>6. ابن عاشور، <em>التحرير والتنوير</em>، تفسير سورة ق، الآيات 12–14.<br/>7. <em>تفسير المأثور</em>، عند تفسير سورة الفرقان، الآية 38، في الأثر المنقول عن سعيد بن جبير.<br/>8. ابن عساكر، <em>تاريخ دمشق</em>، الخبر الوارد في حنظلة بن صفوان، المنقول عن تاريخ ابن خرداذبة.<br/>9. ابن كثير، <em>البداية والنهاية</em>، أخبار أصحاب الرس.<br/><strong>تنبيه توثيقي:</strong> لا يُذكر رقم حديث لهذا الخبر؛ لأنه لم يرد هنا بوصفه حديثًا نبويًا مسندًا، وإنما هو أثر وخبر تاريخي. ولم أضع أرقام أجزاء وصفحات للمراجع التي تختلف طبعاتها أو لم يتيسر التحقق من ترقيمها؛ حتى لا أضع أرقامًا غير موثوقة.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَعَادًا وَثَمُودَ وَأَصْحَابَ الرَّسِّ وَقُرُونًا بَيْنَ ذَٰلِكَ كَثِيرًا﴾ [الفرقان: 38]، وقوله: ﴿كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَأَصْحَابُ الرَّسِّ وَثَمُودُ﴾ [ق: 12].</div>
+<strong>نوع الدليل ودرجته:</strong> آيتان من القرآن الكريم، قطعيّتا الثبوت. وهما تثبتان ذكر أصحاب الرس ضمن الأمم المكذبة، ولا تحددان مكانهم أو اسم نبيهم. أما تعيين حنظلة بن صفوان فهو قول تفسيري وتاريخي مروي، وليس حديثًا صحيحًا صريحًا.
+<br/><strong>تنبيه:</strong> يُذكر حنظلة بن صفوان بصيغة التمريض: «قيل»، ولا يُجزم بأنه نبي أصحاب الرس؛ لأن الخبر الوارد فيه لا يثبت بإسناد صحيح قاطع، وتفاصيل قصته من الأخبار التاريخية والتفسيرية.
+<br/><strong>موضع الرجوع:</strong> المصحف الشريف، سورة الفرقان، الآية 38، وسورة ق، الآية 12؛ جامع البيان للطبري، ج19، ص269–270 (في بعض الطبعات)، عند تفسير الفرقان: 38؛ تفسير المأثور عند الفرقان: 38، أثر سعيد بن جبير؛ تاريخ دمشق لابن عساكر، خبر حنظلة بن صفوان المنقول عن تاريخ ابن خرداذبة؛ البداية والنهاية لابن كثير، أخبار أصحاب الرس. ولا يوجد رقم حديث نبوي لهذا الخبر؛ لأنه خبر تفسيري/تاريخي لا حديث صحيح ثابت.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>3. هل أصحاب الأيكة هم قوم شعيب أم قوم آخرون؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>اختلف المفسرون: كثير منهم جعل أصحاب الأيكة قوم شعيب أو أهل مدين، ورأى آخرون أنهم جماعة أخرى قريبة منهم. والقرآن يذكر أن شعيبًا دعا أصحاب الأيكة، أما اتحادهم التام مع أهل مدين فموضع خلاف تفسيري.</p></div>
+<p>الأيكة هي الشجر الملتف أو الغيضة. قال تعالى:</p>
+<div class="verse quran-verse">﴿كَذَّبَ أَصْحَابُ الْأَيْكَةِ الْمُرْسَلِينَ ۝ إِذْ قَالَ لَهُمْ شُعَيْبٌ أَلَا تَتَّقُونَ﴾ [الشعراء: 176–177].</div>
+<h4 class="subquestion">ما الذي يثبته القرآن عن أصحاب الأيكة؟</h4><p>كثير من المفسرين قالوا إن أصحاب الأيكة هم قوم شعيب أو إنهم أهل مدين. وذهب آخرون إلى أنهم جماعتان متقاربتان؛ واستأنسوا بأن القرآن قال في مدين «أخاهم شعيبًا»، ولم يصف شعيبًا بأنه أخو أصحاب الأيكة. وهذه قرينة تفسيرية وليست نصًا قاطعًا.</p>
+<p>دعاهم شعيب إلى توحيد الله، وإيفاء الكيل والميزان، وترك بخس الناس حقوقهم والإفساد في الأرض:</p>
+<div class="verse quran-verse">﴿وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تَعْثَوْا فِي الْأَرْضِ مُفْسِدِينَ﴾ [هود: 85].</div>
+<h4 class="subquestion">أين يقع الخلاف في صلتهم بأهل مدين؟</h4><p>ذكر القرآن الرجفة والصيحة والظلة في مواضع القصص المتعلقة بشعيب ومدين والأيكة. ويجمع المفسرون بين هذه النصوص بطرق مختلفة، فلا ينبغي تركيب تفاصيل واحدة دون بيان وجه الجمع.</p>
+<p><strong>توضيح وتحرير:</strong> والخلاف هنا ليس في أن القرآن نسب دعوة أصحاب الأيكة إلى شعيب عليه السلام؛ فهذا ظاهر النص، وإنما في تحديد صلتهم بأهل مدين: هل هما اسمان لقوم واحد، أم جماعتان متقاربتان دعاهم شعيب؟ لذا ينبغي عرض القولين وعدم القطع بأحدهما اعتمادًا على مجرد اختلاف التعبير القرآني.</p><div class="ref"><strong>المراجع:</strong> القرآن الكريم، الأعراف: 85–93؛ هود: 84–95؛ الشعراء: 176–191؛ تفسير الطبري؛ تفسير ابن كثير؛ الجامع لأحكام القرآن للقرطبي؛ التحرير والتنوير لابن عاشور.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿كَذَّبَ أَصْحَابُ الْأَيْكَةِ الْمُرْسَلِينَ ۝ إِذْ قَالَ لَهُمْ شُعَيْبٌ أَلَا تَتَّقُونَ﴾ [الشعراء: 176–177].</div>
+<div class="verse quran-verse">وفي قصة مدين: ﴿وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا﴾ [هود: 84]، وقوله: ﴿وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ﴾ [هود: 85].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات قرآنية قطعية الثبوت. وهي تثبت أن شعيبًا خاطب أصحاب الأيكة، وتذكر وصف الأخوة في قصة مدين؛ أما كون أصحاب الأيكة هم أنفسهم أهل مدين أو جماعة أخرى فموضع خلاف تفسيري.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم، الشعراء: 176–191؛ هود: 84–95؛ الأعراف: 85–93؛ تفسير الطبري وابن كثير والقرطبي وابن عاشور.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>4. من هم أصحاب الأخدود؟ وهل نعرف أسماءهم؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>أصحاب الأخدود مؤمنون عُذّبوا بسبب إيمانهم، وذكر القرآن قصتهم في سورة البروج. ويرتبط بها عند كثير من أهل العلم حديث الغلام والملك، لكن أسماء الأشخاص والمكان والنبي غير ثابتة على وجه القطع.</p></div>
+<p>أصحاب الأخدود جماعة من أهل الإيمان عُذبوا بسبب إيمانهم بالله. والأخدود هو الشق العظيم في الأرض. قال تعالى:</p>
+<div class="verse quran-verse">﴿قُتِلَ أَصْحَابُ الْأُخْدُودِ ۝ النَّارِ ذَاتِ الْوَقُودِ ۝ إِذْ هُمْ عَلَيْهَا قُعُودٌ ۝ وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ﴾ [البروج: 4–7].</div>
+<h4 class="subquestion">ماذا ورد في القرآن عن أصحاب الأخدود؟</h4><p>ومن أشهر ما ورد في السنة حديث الغلام والملك والراهب، وفيه ملك يضطهد المؤمنين وغلام يثبت على إيمانه، فتكون قصته سببًا في إيمان جماعة. رواه مسلم عن صهيب رضي الله عنه.</p>
+<p><strong>درجة الحديث:</strong> صحيح؛ صحيح مسلم، كتاب الزهد والرقائق، حديث رقم 3005 بترقيم محمد فؤاد عبد الباقي.</p>
+<h4 class="subquestion">ما علاقة حديث الغلام والملك بقصة أصحاب الأخدود؟</h4><p>ربط بعض أهل العلم بين حديث الغلام والملك وبين قصة أصحاب الأخدود، بينما بحث آخرون مدى كون الحديث تفسيرًا مباشرًا للآيات أو قصة مشابهة في المعنى. ولا يذكر القرآن نبيًا محددًا لأصحاب الأخدود، فلا نجزم باسم نبيهم أو بأسماء الملك والبلد من غير دليل ثابت.</p>
+<p><strong>توضيح وتحرير:</strong> ويثبت من سورة البروج أصل اضطهاد المؤمنين ووقوع الأخدود، ويثبت من حديث صهيب الصحيح خبر الغلام والملك والراهب. أما مطابقة كل تفصيل في الحديث لكل تفصيل في الواقعة القرآنية، أو تحديد البلد والملك بأسمائهما، فمسائل تحتاج إلى دليل مستقل ولا يكفي فيها التشابه بين القصتين.</p><div class="ref"><strong>المراجع:</strong> القرآن الكريم، سورة البروج: 4–10؛ صحيح مسلم، حديث 3005؛ تفسير الطبري؛ تفسير ابن كثير؛ فتح الباري لابن حجر.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿قُتِلَ أَصْحَابُ الْأُخْدُودِ ۝ النَّارِ ذَاتِ الْوَقُودِ ۝ إِذْ هُمْ عَلَيْهَا قُعُودٌ ۝ وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ﴾ [البروج: 4–7].</div>
+<div class="verse">ومن السنة: حديث الغلام والملك والراهب، رواه صهيب رضي الله عنه.</div>
+<strong>درجة الحديث:</strong> صحيح؛ رواه مسلم في صحيحه، كتاب الزهد والرقائق، حديث رقم 3005 بترقيم محمد فؤاد عبد الباقي.
+<br/><strong>تنبيه منهجي:</strong> الحديث صحيح، لكن ربط تفاصيله التاريخية بكل تفاصيل أصحاب الأخدود على أنها واقعة واحدة محددة هو تفسير مشهور، وليس تصريحًا بأسماء الأشخاص أو المكان في نص الآيات.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم، سورة البروج: 4–10؛ صحيح مسلم، حديث 3005؛ تفسير الطبري وابن كثير؛ فتح الباري لابن حجر.
+<div class="hadith"><p class="hadith-text"><strong>نص الحديث: </strong>حديث الغلام والملك والراهب، وفيه خبر أصحاب الأخدود.</p><div class="hadith-meta">الصحابي الراوي: صهيب الرومي رضي الله عنه | القائل: رسول الله ﷺ، راويًا القصة عن النبي ﷺ. | التخريج: صحيح مسلم، كتاب الزهد والرقائق، حديث (3005) بترقيم محمد فؤاد عبد الباقي. | الدرجة: صحيح.</div></div></div>
+</div>
+</details>
+<details class="qa">
+<summary>5. من هم قوم سبأ؟ وهل كان سيل العرم بسبب انهيار السد؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>قوم سبأ قوم سكنوا اليمن، وذكر القرآن أن سيل العرم أصابهم بعد إعراضهم. ويربط كثير من المفسرين السيل بخراب سد مأرب ومنشآت الري، لكن تفاصيل الانهيار وتاريخه تحتاج إلى تمييز الرواية التفسيرية من البحث الأثري.</p></div>
+<p>سبأ قوم ارتبطوا بجنوب الجزيرة العربية، في اليمن. ذكر القرآن أن لهم جنتين عن اليمين والشمال، وأنهم أعرضوا عن شكر الله، فأرسل الله عليهم سيل العرم وبدّل جناتهم.</p>
+<div class="verse quran-verse">﴿لَقَدْ كَانَ لِسَبَإٍ فِي مَسْكَنِهِمْ آيَةٌ جَنَّتَانِ عَنْ يَمِينٍ وَشِمَالٍ كُلُوا مِنْ رِزْقِ رَبِّكُمْ وَاشْكُرُوا لَهُ بَلْدَةٌ طَيِّبَةٌ وَرَبٌّ غَفُورٌ﴾ [سبأ: 15].</div>
+<h4 class="subquestion">أين سكنت مملكة سبأ وما الذي ذكره القرآن عن رخائها؟</h4><div class="verse quran-verse">﴿فَأَعْرَضُوا فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ الْعَرِمِ وَبَدَّلْنَاهُمْ بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَيْ أُكُلٍ خَمْطٍ وَأَثْلٍ وَشَيْءٍ مِنْ سِدْرٍ قَلِيلٍ﴾ [سبأ: 16].</div>
+<p>يربط كثير من المفسرين سيل العرم بخراب منشآت الري وسد مأرب وما ترتب عليه من تضرر الزراعة وتفرق السكان. وتوجد شواهد تاريخية وأثرية على منشآت الري القديمة في اليمن، لكن تحديد تاريخ واحد دقيق للانهيار ومراحله يحتاج إلى بحث تاريخي وأثري متخصص.</p>
+<h4 class="subquestion">ما الذي نعرفه عن سيل العرم وسد مأرب؟</h4><p>ولا تسمي الآيات نبيًا بعينه أرسل إلى سبأ في قصة السيل؛ لذلك لا ننسب إليهم نبيًا محددًا اعتمادًا على روايات غير ثابتة.</p>
+<p><strong>توضيح وتحرير:</strong> والأدق أن نقول إن القرآن أثبت سيل العرم وما أحدثه من تبدل حال جنات سبأ، بينما تعيين السد وتفاصيل مراحل انهياره تفسير تاريخي تدعمه معرفة منشآت الري القديمة في اليمن، لكنه ليس لفظًا صريحًا في الآية. كما لا ينبغي اختزال تحوّل المجتمع السبئي كله في حادثة واحدة؛ فالهجرات والتحولات السياسية والاقتصادية لها سياق تاريخي أوسع.</p><div class="ref"><strong>المراجع:</strong> القرآن الكريم، سبأ: 15–19؛ تفسير الطبري؛ تفسير ابن كثير؛ الجامع لأحكام القرآن للقرطبي؛ دراسات سد مأرب وتاريخ اليمن القديم.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿لَقَدْ كَانَ لِسَبَإٍ فِي مَسْكَنِهِمْ آيَةٌ جَنَّتَانِ عَنْ يَمِينٍ وَشِمَالٍ﴾ [سبأ: 15].</div>
+<div class="verse quran-verse">﴿فَأَعْرَضُوا فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ الْعَرِمِ﴾ [سبأ: 16].</div>
+<strong>نوع الدليل ودرجته:</strong> آيات من القرآن الكريم، قطعية الثبوت. وهي تثبت سيل العرم وما ترتب عليه، لكنها لا تذكر في لفظها اسم سد مأرب أو تاريخ انهياره.
+<br/><strong>ما يحتاج إلى تمييز:</strong> ربط السيل بخراب سد مأرب ومنشآت الري تفسير مشهور تؤيده مباحث تاريخية وأثرية، أما التفاصيل الزمنية والهندسية فتحتاج إلى مصادر أثرية متخصصة.
+<br/><strong>موضع الرجوع:</strong> القرآن الكريم، سبأ: 15–19؛ تفسير الطبري وابن كثير والقرطبي عند الآيات؛ دراسات تاريخ اليمن القديم وسد مأرب.
+</div>
+</div>
+</details>
+<details class="qa">
+<summary>6. هل كل الأقوام التي ذكرها القرآن نعرف أسماء أنبيائها؟</summary>
+<div class="answer">
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>لا، فالقرآن يصرّح بأنه قصّ أخبار بعض الرسل ولم يقصص أخبار آخرين؛ لذلك لا نعرف أسماء أنبياء جميع الأقوام، ولا يصح اختراع أسماء بلا دليل.</p></div>
+<p>لا. القرآن كتاب هداية، وليس سجلًا تاريخيًا يذكر كل أسماء الرسل وتواريخهم. بل يصرح بأن هناك رسلًا قص الله أخبارهم ورسلاً لم يقصص أخبارهم:</p>
+<h4 class="subquestion">هل ذكر القرآن أسماء جميع الأنبياء والرسل؟</h4><div class="verse quran-verse">﴿وَرُسُلًا قَدْ قَصَصْنَاهُمْ عَلَيْكَ مِنْ قَبْلُ وَرُسُلًا لَمْ نَقْصُصْهُمْ عَلَيْكَ﴾ [النساء: 164].</div>
+<p>لذلك لا يجوز أن نزعم أن أسماء الأنبياء المعروفة لنا هي كل الأنبياء، ولا أن نخترع أسماء للرسل الذين لم ترد أسماؤهم. والمنهج الصحيح أن نقسم المعلومات إلى: ثابت بنص القرآن أو السنة الصحيحة؛ وقول تفسيري أو تاريخي مختلف فيه؛ ومعلومة لا نملك دليلًا كافيًا عليها.</p>
+<h4 class="subquestion">ما المنهج الصحيح عند عدم ثبوت اسم نبي قوم معين؟</h4><p><strong>توضيح وتحرير:</strong> وهذا لا يعني أن كل نبي غير مذكور الاسم مجهول من كل وجه؛ فقد ترد بعض الأسماء أو الأخبار في السنة الصحيحة أو في مصادر أخرى بدرجات متفاوتة. لكن لا يُثبت اسم نبي لقوم معينين إلا بدليل معتبر، ويجب التفريق بين ما ثبت بالوحي وما اشتهر في كتب الأخبار أو القصص.</p><div class="ref"><strong>المراجع:</strong> القرآن الكريم، النساء: 164؛ مقدمة في أصول التفسير لابن تيمية؛ الإتقان في علوم القرآن للسيوطي.</div>
+<div class="proof"><strong>الدليل المباشر:</strong>
+<div class="verse quran-verse">﴿وَرُسُلًا قَدْ قَصَصْنَاهُمْ عَلَيْكَ مِنْ قَبْلُ وَرُسُلًا لَمْ نَقْصُصْهُمْ عَلَيْكَ﴾ [النساء: 164].</div>
+<strong>نوع الدليل ودرجته:</strong> آية من القرآن الكريم، قطعية الثبوت، ونص صريح في أن أخبار بعض الرسل لم تُذكر للنبي ﷺ في القرآن.
+<br/><strong>النتيجة:</strong> لا نعرف أسماء جميع الرسل، ولا يجوز تعيين نبي لقوم لم يرد اسمه بدليل ثابت.
+<br/><strong>موضع الرجوع:</strong> المصحف الشريف، سورة النساء: 164؛ مقدمة في أصول التفسير لابن تيمية؛ الإتقان في علوم القرآن للسيوطي.
+</div>
+</div>
+</details>
+</section><section class="chapter" id="hajj-umrah">
+<h2>الباب الثامن: الحج والعمرة فرائضهم وسننهم</h2>
+<p class="chapter-intro">يجمع هذا الباب مسائل الحج والعمرة في <strong>سبعة أسئلة موسوعية</strong>، مع دمج المسائل المتقاربة دون إسقاط تفاصيلها: الحكم وشروط الوجوب، والأركان والواجبات والسنن، وأنواع النسك والهدي، والإحرام والمواقيت والمحظورات والتلبية، وترتيب المناسك والطواف والسعي والحلق، والمسائل الخاصة، والحج المبرور. روعي في تحريره كتاب <strong>الحج المبرور: صفته وكيفية تحقيقه في ضوء الكتاب والسنة</strong> للدكتور حافظ بن محمد الحكمي، مع الرجوع إلى القرآن الكريم والأحاديث الصحيحة وكتب الفقه المقارن، ومنها «المغني» لابن قدامة، و«المجموع شرح المهذب» للنووي، و«بداية المجتهد» لابن رشد، و«فتح الباري» لابن حجر، و«الموسوعة الفقهية الكويتية». وقد أُثبت الدليل المباشر في نهاية كل إجابة، مع بيان الراوي والقائل والتخريج ودرجة الحديث حيث يلزم. وتختلف بعض تفاصيل تصنيف الأركان والواجبات بين المذاهب، وقد نُبّه إلى ذلك في مواضعه.</p>
+<div class="note"><strong>تنبيه فقهي مهم:</strong> ستجد في هذا الباب التفريق بين الركن والواجب والسنة. والركن لا يصح النسك بدونه، أما الواجب فيجبر تركه عند كثير من الفقهاء بدم مع صحة النسك، وتفاصيل ذلك تختلف باختلاف المسألة والمذهب. هذه مادة تعليمية وليست فتوى لحالة شخصية.</div>
+<details class="qa"><summary>1. ما حكم الحج والعمرة؟ وعلى من يجبان؟ وما الفرق بينهما ومتى تؤدى العمرة؟</summary><div class="answer"><h3 class="hajj-section-title">1. ما حكم الحج والعمرة؟ وعلى من يجب الحج؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الحج فرض مرة واحدة في العمر على المسلم المستطيع، والعمرة واجبة عند طائفة من أهل العلم، وسنة مؤكدة عند آخرين؛ وفي حكمها خلاف فقهي معتبر.</p></div>
+<p>فرض الله الحج على من استطاع إليه سبيلًا، والاستطاعة تشمل القدرة البدنية والمالية وأمن الطريق والقدرة على أداء النسك. ولا يجب تكرار الحج كل عام؛ بل الفرض مرة واحدة في العمر، وما زاد فهو تطوع.</p>
+<div class="verse quran-verse">﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا﴾ [آل عمران: 97].</div>
+<p>أما العمرة فقد اختلف العلماء في حكمها: فمنهم من أوجبها، ومنهم من جعلها سنة مؤكدة. لذلك ينبغي عرض الخلاف كما هو، وعدم الادعاء أن المسألة محل إجماع.</p>
+<div class="grade">درجة الدليل: وجوب الحج على المستطيع ثابت بنص القرآن. أما حكم العمرة ففيه خلاف فقهي معروف.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، آل عمران: 97؛ صحيح البخاري وصحيح مسلم في فرض الحج؛ الحج المبرور، حافظ بن محمد الحكمي، في مسائل صفة الحج وأحكامه. مراجع إضافية للتوسع: المغني لابن قدامة، كتاب الحج، فصول شروط الوجوب والخلاف في العمرة؛ بداية المجتهد لابن رشد، كتاب الحج، مسائل شروط الحج والعمرة؛ الموسوعة الفقهية الكويتية، مادة «حج».</div>
+<h3 class="hajj-section-title">2. ما الفرق بين الحج والعمرة؟ وهل يمكن أداء العمرة في أي وقت؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الحج له وقت محدد في أشهر الحج، وأعمال مخصوصة منها الوقوف بعرفة. أما العمرة فليس لها يوم واحد محدد في السنة، وتؤدى في سائر العام، مع مراعاة أحكام المواقيت والأنظمة المنظمة للنسك.</p></div>
+<p>يشترك الحج والعمرة في الإحرام والطواف والسعي، لكن الحج يزيد بأعمال لا توجد في العمرة، وأبرزها الوقوف بعرفة. والحج لا يكون صحيحًا إلا في وقته الشرعي، أما العمرة فيمكن أداؤها في معظم أوقات السنة.</p>
+<div class="verse quran-verse">﴿الْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ﴾ [البقرة: 197].</div>
+<p>وأشهر الحج هي شوال وذو القعدة والعشر الأولى من ذي الحجة على قول جمهور أهل العلم في تحديدها.</p>
+<div class="grade">درجة الدليل: تحديد الحج بأشهر معلومة ثابت بنص القرآن؛ وتفاصيل الأشهر محل بيان فقهي.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، البقرة: 197؛ كتب المناسك؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: بداية المجتهد لابن رشد، كتاب الحج، شروط الإحرام الزمانية؛ المغني لابن قدامة، باب العمرة وأحكامها؛ الموسوعة الفقهية الكويتية، مادة «عمرة».</div>
+<h3 class="hajj-section-title proof-heading">الدليل المباشر في نهاية الإجابة</h3><div class="proof"><strong>الدليل المباشر القطعي الثبوت:</strong><div class="verse quran-verse">﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا﴾ [آل عمران: 97].</div>نوع الدليل ودرجته: آية قرآنية قطعية الثبوت، صريحة في أصل فرض الحج على المستطيع.<br/>تنبيه: حكم العمرة محل خلاف فقهي، فلا تُنسب إليه قطعية أو إجماع.</div><div class="proof"><strong>الدليل المباشر:</strong><div class="verse quran-verse">﴿الْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ﴾ [البقرة: 197].</div></div></div></details><details class="qa"><summary>2. ما أركان الحج وأركان العمرة وواجباتهما وسننهما؟ وما الفرق بين الركن والواجب والسنة؟</summary><div class="answer"><h3 class="hajj-section-title">1. ما أركان الحج وأركان العمرة؟ وما واجبات كلٍّ منهما؟ وما الفرق بين الركن والواجب والسنة؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>سنفصل أحكام الحج عن العمرة حتى لا تختلط: للحج أركان وواجبات، وللعمرة أركان وواجبات، وفي بعض تفاصيل التصنيف خلاف معتبر بين المذاهب. الركن لا يصح النسك بدونه، والواجب يلزم فعله ويجبر ترك بعضه بدم عند عدد من الفقهاء بشروطه، أما السنة فيثاب فاعلها ولا يبطل النسك بتركها.</p></div>
+<div class="hajj-section"><h3 class="hajj-section-title">أولًا: أركان الحج</h3>
+<ol><li><strong>الإحرام:</strong> نية الدخول في نسك الحج، وليس مجرد ارتداء ملابس الإحرام.</li><li><strong>الوقوف بعرفة:</strong> حضور الحاج بعرفة في الوقت المحدد شرعًا، وهو أعظم أركان الحج.</li><li><strong>طواف الإفاضة:</strong> الطواف بالبيت بعد الوقوف بعرفة، وهو من أركان الحج.</li><li><strong>السعي بين الصفا والمروة:</strong> سبعة أشواط، ويعده جمهور الفقهاء ركنًا، مع اختلاف تفصيلي في المذاهب.</li></ol>
+<div class="verse quran-verse">﴿وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ﴾ [البقرة: 196].</div>
+<p class="small-note">تنبيه فقهي: هذا تعداد مشهور عند جمهور أهل العلم، أما الحنفية فلهم تفصيل مختلف في عدد الأركان وتصنيف بعض الأعمال؛ لذلك لا يصح عرض التعداد على أنه محل اتفاق بين جميع المذاهب.</p></div>
+<div class="umrah-section"><h3 class="hajj-section-title">ثانيًا: أركان العمرة</h3>
+<ol><li><strong>الإحرام:</strong> نية الدخول في العمرة.</li><li><strong>الطواف بالبيت:</strong> سبعة أشواط حول الكعبة.</li><li><strong>السعي بين الصفا والمروة:</strong> سبعة أشواط، يبدأ بالصفا وينتهي بالمروة.</li></ol>
+<p>ويختلف الفقهاء في تصنيف الحلق أو التقصير: فمنهم من يعده من واجبات العمرة أو من أعمال التحلل، ومنهم من له تفصيل آخر؛ لذا نذكره مستقلًا ضمن واجبات العمرة وأعمالها ولا نخلطه بأركانها.</p>
+<div class="verse quran-verse">﴿إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ﴾ [البقرة: 158].</div></div>
+<div class="hajj-section"><h3 class="hajj-section-title">ثالثًا: واجبات الحج</h3>
+<p>من أشهر الواجبات عند جمهور الفقهاء، مع اختلاف المذاهب في بعض التفصيلات:</p><ol><li>الإحرام من الميقات المكاني المحدد لمن مر به مريدًا النسك.</li><li>الوقوف بعرفة إلى غروب الشمس لمن وقف نهارًا، عند من يوجب ذلك.</li><li>المبيت بمزدلفة في وقته، مع وجود أعذار ورخص لبعض الفئات.</li><li>المبيت بمنى ليالي أيام التشريق، وفق التفصيل الفقهي والأعذار.</li><li>رمي الجمار في أيامها وأوقاتها.</li><li>الحلق أو التقصير.</li><li>طواف الوداع لغير الحائض والنفساء عند جمهور أهل العلم، مع تفصيل في أحوال المعذورين.</li></ol>
+<p class="small-note">هذه قائمة تعليمية بأشهر ما يذكره الفقهاء، وليست قائمة متفقًا على كل جزئية فيها؛ فبعض المذاهب تختلف في تصنيف بعض الأعمال أو في حكمها عند العذر.</p></div>
+<div class="umrah-section"><h3 class="hajj-section-title">رابعًا: واجبات العمرة</h3>
+<ol><li><strong>الإحرام من الميقات:</strong> لمن كان خارج حدود المواقيت ومر بها قاصدًا العمرة، مع مراعاة أحكام من كان داخل المواقيت.</li><li><strong>الحلق أو التقصير:</strong> للتحلل من العمرة، وهو واجب عند جمهور من الفقهاء، مع اختلافهم في بعض تفاصيله.</li></ol>
+<p>أما الطواف والسعي فهما من أركان العمرة في القول المشهور عند جمهور أهل العلم، فلا نضعهما في قائمة الواجبات حتى لا يحدث خلط بين القسمين.</p></div>
+<div class="distinction"><h3 class="hajj-section-title">خامسًا: الفرق بين الركن والواجب والسنة</h3>
+<ul><li><strong>الرُّكن:</strong> جزء أساسي من النسك لا يصح النسك بدونه، ولا يُجبر تركه بمجرد دم.</li><li><strong>الواجب:</strong> عمل مطلوب في النسك، ويترتب على ترك بعض واجباته جبرٌ بدم عند عدد من الفقهاء إذا لم يوجد عذر يسقطه، وتختلف التفاصيل باختلاف المذهب والحالة.</li><li><strong>السُّنة:</strong> ما يثاب فاعله ولا يبطل النسك بتركه في الأصل، ولا يلزم من تركها دم.</li></ul></div>
+<div class="hadith-box"><strong>الدليل من السنة:</strong><p>قال النبي ﷺ: «الحج عرفة».</p><p><strong>التخريج:</strong> رواه أبو داود والترمذي والنسائي وابن ماجه بألفاظ وطرق، وصححه أو حسنه عدد من أهل العلم.</p><p><strong>وجه الدلالة:</strong> يدل الحديث على عظم شأن الوقوف بعرفة وأنه ركن الحج الأعظم، ولا يعني أن بقية الأركان والواجبات غير مطلوبة.</p></div><div class="hadith"><p class="hadith-text">نص الحديث: «الحج عرفة»</p><div class="hadith-meta">الصحابي الراوي: عبد الرحمن بن يعمر الديلي رضي الله عنه. القائل: رسول الله ﷺ. التخريج: سنن أبي داود (1949)، والترمذي (889)، والنسائي (3016). الدرجة: حسن صحيح عند الترمذي، وصححه عدد من أهل الحديث.</div></div>
+<div class="grade">درجة الدليل: أصل المناسك ثابت بالقرآن والسنة الصحيحة. أما تفصيل الأركان والواجبات وتصنيف بعض الأعمال ففيه خلاف فقهي معتبر بين المذاهب.</div>
+<div class="ref"><strong>المراجع:</strong> الحج المبرور، حافظ بن محمد الحكمي؛ المغني لابن قدامة، كتاب الحج؛ المجموع شرح المهذب للنووي، كتاب الحج؛ بداية المجتهد ونهاية المقتصد لابن رشد، كتاب الحج؛ الموسوعة الفقهية الكويتية، مادتا «حج» و«عمرة»؛ صحيح مسلم، كتاب الحج؛ سنن أبي داود والترمذي والنسائي وابن ماجه، أبواب المناسك.</div>
+<h3 class="hajj-section-title">2. ما أهم ركن في الحج؟ ولماذا قيل: الحج عرفة؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الوقوف بعرفة هو أعظم أركان الحج، ومن فاته الوقوف بعرفة في وقته فاته الحج؛ ولذلك ورد الحديث: «الحج عرفة».</p></div><div class="hadith" data-key="29-سنن أبي داود (1949)، والترمذي (889)، والنسائي (3016)"><p class="hadith-text">نص الحديث: «الحج عرفة»</p><div class="hadith-meta">الصحابي الراوي: عبد الرحمن بن يعمر الديلي رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: سنن أبي داود (1949)، والترمذي (889)، والنسائي (3016). الدرجة: حسنه وصححه عدد من أهل الحديث؛ وقال الترمذي: حسن صحيح.</div></div>
+<p>يكون الوقوف بعرفة في اليوم التاسع من ذي الحجة، ويمتد وقته الشرعي إلى فجر يوم النحر على التفصيل المعروف عند الفقهاء. والمقصود بالوقوف وجود الحاج داخل حدود عرفة في الوقت المحدد، وليس شرطًا أن يظل واقفًا على قدميه؛ فيصح أن يكون جالسًا أو راكبًا أو مستريحًا.</p>
+<div class="verse quran-verse">﴿فَإِذَا أَفَضْتُمْ مِنْ عَرَفَاتٍ فَاذْكُرُوا اللَّهَ عِنْدَ الْمَشْعَرِ الْحَرَامِ﴾ [البقرة: 198].</div>
+<p>ومع عظم هذا الركن، لا يصح أن يقال إن بقية الأركان غير مهمة؛ فالحج عبادة لها أعمال مترابطة، ولكل عمل حكمه.</p>
+<div class="grade">درجة الدليل: الآية نص قرآني، وحديث «الحج عرفة» حديث مشهور صححه عدد من أهل الحديث.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، البقرة: 198؛ سنن أبي داود والترمذي والنسائي في حديث «الحج عرفة»؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: فتح الباري لابن حجر، كتاب الحج، أبواب الوقوف بعرفة؛ صحيح مسلم، كتاب الحج، حديث جابر في صفة حجة النبي ﷺ؛ المغني لابن قدامة، فصل الوقوف بعرفة.</div>
+<h3 class="hajj-section-title proof-heading">الدليل المباشر في نهاية الإجابة</h3><div class="proof"><strong>الدليل المباشر:</strong><div class="verse quran-verse">﴿فَإِذَا أَفَضْتُمْ مِنْ عَرَفَاتٍ فَاذْكُرُوا اللَّهَ عِنْدَ الْمَشْعَرِ الْحَرَامِ﴾ [البقرة: 198].</div></div><div class="proof"><strong>الدليل المباشر لأركان الحج والعمرة وواجباتهما:</strong>
+<div class="verse quran-verse">﴿وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ﴾ [البقرة: 196].</div>
+<div class="hadith">نص الحديث: «خُذُوا عَنِّي مَنَاسِكَكُمْ».<div class="hadith-meta">الصحابي الراوي: جابر بن عبد الله رضي الله عنهما. القائل: رسول الله ﷺ. التخريج: صحيح مسلم، كتاب الحج، حديث (1297). الدرجة: صحيح.</div></div>
+<div class="hadith">نص الحديث: «الحج عرفة».<div class="hadith-meta">الصحابي الراوي: عبد الرحمن بن يعمر الديلي رضي الله عنه. القائل: رسول الله ﷺ. التخريج: سنن أبي داود (1949)، والترمذي (889)، والنسائي وابن ماجه. صححه جمع من أهل الحديث.</div></div>
+<strong>وجه الدلالة:</strong> آية البقرة تأمر بإتمام النسكين، وحديث «خذوا عني مناسككم» أصل في اتباع صفة النسك النبوية، وحديث «الحج عرفة» يدل على مركزية الوقوف بعرفة. أما تفصيل تصنيف كل عمل إلى ركن أو واجب أو سنة فيرجع فيه إلى اجتهادات المذاهب الفقهية، ولا يصح جعل كل تفصيل محل إجماع.
+</div></div></details><details class="qa"><summary>3. ما أنواع النسك؟ وما الفرق بين الإفراد والقران والتمتع والهدي والأضحية؟</summary><div class="answer"><h3 class="hajj-section-title">1. ما أنواع النسك في الحج؟ وما الفرق بين الإفراد والقران والتمتع؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>أنساك الحج ثلاثة: الإفراد، والقران، والتمتع.</p></div>
+<ul><li><strong>الإفراد:</strong> أن يحرم بالحج وحده.</li><li><strong>القران:</strong> أن يجمع بين الحج والعمرة في إحرام واحد، أو يدخل الحج على العمرة وفق صور القران المعروفة.</li><li><strong>التمتع:</strong> أن يحرم بالعمرة في أشهر الحج، فيؤديها ويتحلل، ثم يحرم بالحج في العام نفسه.</li></ul>
+<p>ويجب على المتمتع والقارن هدي التمتع أو القران إذا تحققت شروطه، فإن لم يجد فصيام ثلاثة أيام في الحج وسبعة إذا رجع، كما في آية الهدي. ولتفاصيل وقت الصيام وصفة الهدي أحكام فقهية تراجع في كتب المناسك.</p>
+<div class="verse quran-verse">﴿فَمَنْ تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ فَمَنْ لَمْ يَجِدْ فَصِيَامُ ثَلَاثَةِ أَيَّامٍ فِي الْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ﴾ [البقرة: 196].</div>
+<div class="grade">درجة الدليل: أنواع النسك وأصل حكم الهدي ثابتة بالقرآن والسنة الصحيحة.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، البقرة: 196؛ صحيح البخاري وصحيح مسلم، كتاب الحج؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: المغني لابن قدامة، كتاب الحج، باب صفة الحج؛ المجموع للنووي، كتاب الحج؛ صحيح مسلم، حديث جابر الطويل في صفة حجة النبي ﷺ.</div>
+<h3 class="hajj-section-title">2. هل يجوز أن يحج الإنسان عن الميت أو عن العاجز عجزًا دائمًا؟</h3><div class="answer-short"><strong>الإجابة المختصرة</strong><p>يجوز الحج عن الميت وعن المسلم العاجز عجزًا دائمًا عن أداء الحج بنفسه، إذا توافرت الشروط الشرعية، مع مراعاة أحكام النيابة.</p></div><p>وردت أحاديث صحيحة في سؤال امرأة عن أبيها الذي لا يثبت على الراحلة، فأذن لها النبي ﷺ أن تحج عنه، كما ورد الإذن بالحج عن الميت. ويشترط فيمن ينوب أن يكون قد حج عن نفسه أولًا عند جمهور أهل العلم، وتفاصيل النيابة والوصية والمال تُراجع في كتب الفقه.</p><div class="verse quran-verse">﴿وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا﴾ [آل عمران: 97].</div><div class="grade">درجة الدليل: الآية قطعية الثبوت، وأصل النيابة ثابت بأحاديث صحيحة. أما شروط النيابة وتفاصيلها ففيها تفصيل فقهي.</div><div class="ref"><strong>المراجع:</strong> صحيح البخاري، كتاب الحج، باب الحج عمن لا يستطيع الثبوت على الراحلة؛ صحيح مسلم، كتاب الحج؛ المغني لابن قدامة، باب النيابة في الحج؛ بداية المجتهد لابن رشد، مسائل الحج عن الغير.</div><div class="hadith" data-key="40-صحيح البخاري (1854)، وصحيح مسلم (1334)"><p class="hadith-text">نص الحديث: «حجي عنه»</p><div class="hadith-meta">الصحابي الراوي: عبد الله بن عباس رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1854)، وصحيح مسلم (1334). الدرجة: صحيح متفق عليه.</div></div><h3 class="hajj-section-title proof-heading">الدليل المباشر في نهاية الإجابة</h3><div class="proof"><strong>الدليل المباشر:</strong> آية التمتع من سورة البقرة: 196.</div><div class="proof"><strong>الدليل المباشر:</strong> الدليل المباشر: حديث ابن عباس في المرأة الخثعمية التي سألت عن أبيها، فقال لها النبي ﷺ: «حجي عنه». الراوي: عبد الله بن عباس، والقائل: رسول الله ﷺ، متفق عليه؛ البخاري (1854) ومسلم (1334).</div></div></details><details class="qa"><summary>4. ما أحكام الإحرام والمواقيت ومحظوراته؟ وما التلبية وصيغتها ووقتها؟</summary><div class="answer"><h3 class="hajj-section-title">1. ما هو الإحرام؟ وما المواقيت المكانية؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الإحرام هو نية الدخول في النسك، وليس مجرد ارتداء ملابس الإحرام. وللحج والعمرة مواقيت مكانية لا يجوز لمن مر بها يريد النسك أن يتجاوزها دون إحرام.</p></div>
+<p>من المواقيت التي حددها النبي ﷺ: ذو الحليفة لأهل المدينة، والجحفة لأهل الشام ومصر والمغرب ومن مر بها، وقرن المنازل لأهل نجد، ويلملم لأهل اليمن، وذات عرق لأهل العراق. ومن كان طريقه لا يمر بميقات محدد أحرم إذا حاذى أقرب المواقيت إليه.</p>
+<p>ومن كان داخل المواقيت فميقاته من موضعه، وأهل مكة للحج يحرمون من مكة، أما العمرة فيخرجون إلى الحل ثم يحرمون منه. وللمسافر بالطائرة أحكام تتعلق بمحاذاة الميقات، فينبغي أن يستعد للإحرام قبل تجاوزه.</p>
+<div class="verse quran-verse">﴿وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ﴾ [البقرة: 196].</div>
+<div class="grade">درجة الدليل: المواقيت ثابتة في أحاديث صحيحة في الصحيحين، والتفاصيل التطبيقية تُراجع في كتب المناسك.</div>
+<div class="ref"><strong>المراجع:</strong> صحيح البخاري وصحيح مسلم، كتاب الحج، باب مواقيت أهل الآفاق؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: المغني لابن قدامة، باب المواقيت والإحرام؛ المجموع للنووي، باب الإحرام؛ فتح الباري لابن حجر، كتاب الحج، أبواب المواقيت.</div>
+<div class="hadith" data-key="32-صحيح البخاري (1524)، وصحيح مسلم (1181)"><p class="hadith-text">نص الحديث: «هن لهن ولمن أتى عليهن من غير أهلهن ممن أراد الحج والعمرة»</p><div class="hadith-meta">الصحابي الراوي: عبد الله بن عباس رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1524)، وصحيح مسلم (1181). الدرجة: صحيح متفق عليه.</div></div>
+<h3 class="hajj-section-title">2. ما محظورات الإحرام؟ وهل تختلف بين الرجل والمرأة؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>محظورات الإحرام أمور يمنع المحرم من فعلها حتى يتحلل، ومنها إزالة الشعر وتقليم الأظافر والتطيب وعقد النكاح والجماع ومقدماته والصيد البري. وللرجال أحكام خاصة في اللباس وتغطية الرأس، وللنساء أحكام خاصة في لباسهن وستر الوجه والكفين عند الإحرام.</p></div>
+<p>من محظورات الإحرام المشتركة: إزالة الشعر والأظافر، واستعمال الطيب بعد الإحرام، وقتل صيد البر، وعقد النكاح، والجماع. ويحرم على الرجل لبس الثياب المفصلة المعتادة على هيئة البدن كالقميص والسراويل عند جمهور الفقهاء، وتغطية رأسه بما يعد غطاءً له. أما المرأة فتحرم في ثيابها المعتادة الساترة، ولا تلبس النقاب ولا القفازين حال الإحرام، مع مراعاة أحكام الستر عند وجود الرجال الأجانب وفق تفصيل أهل العلم.</p>
+<p>ليس كل محظور يترتب عليه الحكم نفسه؛ فبعضها فيه فدية، وبعضها أشد، وبعضها يفسد النسك إذا وقع بشروطه. لذلك لا يصح إصدار حكم واحد على كل مخالفة دون معرفة نوعها ووقتها والعذر.</p>
+<div class="verse quran-verse">﴿فَمَنْ فَرَضَ فِيهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ﴾ [البقرة: 197].</div>
+<div class="grade">درجة الدليل: أصل اجتناب الرفث والفسوق ثابت بالقرآن، وتفاصيل المحظورات والفدية ثابتة بالسنة والفقه.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، البقرة: 197؛ صحيح البخاري وصحيح مسلم، كتاب الحج؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: المغني لابن قدامة، باب ما يتوقى المحرم؛ المجموع للنووي، كتاب الحج، محظورات الإحرام والفدية؛ فتح الباري لابن حجر، كتاب الحج.</div>
+<h3 class="hajj-section-title">3. ما التلبية؟ ومتى يبدأ الحاج بها؟ وما صيغتها الثابتة؟</h3><div class="answer-short"><strong>الإجابة المختصرة</strong><p>التلبية ذكر يعلن به المحرم دخوله في النسك، ومن أشهر صيغتها: «لبيك اللهم لبيك، لبيك لا شريك لك لبيك، إن الحمد والنعمة لك والملك، لا شريك لك».</p></div><p>يبدأ المحرم بالتلبية بعد عقد نية النسك، ويكثر منها في مواضعها المشروعة. والرجل يرفع صوته بها من غير إيذاء، والمرأة تلبي بصوت تسمع به نفسها ومن حولها من النساء بحسب الضوابط. ولا ينبغي تحويل التلبية إلى صيغة مخترعة تُنسب إلى النبي ﷺ.</p><div class="verse quran-verse">﴿لِيَشْهَدُوا مَنَافِعَ لَهُمْ وَيَذْكُرُوا اسْمَ اللَّهِ فِي أَيَّامٍ مَعْلُومَاتٍ﴾ [الحج: 28].</div><div class="grade">درجة الدليل: الآية قطعية الثبوت في ذكر الله في أيام الحج، وصيغة التلبية ثابتة في أحاديث صحيحة.</div><div class="hadith" data-key="43-صحيح البخاري (1549)، وصحيح مسلم (1184)"><p class="hadith-text">نص الحديث: «لبيك اللهم لبيك، لبيك لا شريك لك لبيك، إن الحمد والنعمة لك والملك، لا شريك لك»</p><div class="hadith-meta">الصحابي الراوي: عبد الله بن عمر رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1549)، وصحيح مسلم (1184). الدرجة: صحيح متفق عليه.</div></div><div class="ref"><strong>المراجع:</strong> صحيح البخاري، كتاب الحج، باب التلبية؛ صحيح مسلم، كتاب الحج، حديث ابن عمر في التلبية؛ فتح الباري لابن حجر، شرح أحاديث التلبية؛ الحج المبرور، حافظ بن محمد الحكمي.</div><h3 class="hajj-section-title proof-heading">الدليل المباشر في نهاية الإجابة</h3><div class="proof"><strong>الدليل المباشر:</strong> حديث ابن عباس في تحديد المواقيت المكانية، متفق عليه.</div><div class="proof"><strong>الدليل المباشر:</strong> آية البقرة: 197، وأحاديث النهي عن لباس المحرم وطيب المحرم.</div><div class="proof"><strong>الدليل المباشر:</strong> الدليل المباشر: صيغة التلبية التي كان النبي ﷺ يقولها، رواها عبد الله بن عمر رضي الله عنهما، والقائل هو النبي ﷺ، أخرجها البخاري (1549) ومسلم (1184)، وهي صحيحة متفق عليها.</div></div></details><details class="qa"><summary>5. كيف تؤدى مناسك الحج والعمرة بالترتيب؟ وما أحكام الطواف والسعي والحلق والتقصير؟</summary><div class="answer"><h3 class="hajj-section-title">1. كيف يؤدي المسلم الحج بالترتيب من بداية الإحرام إلى التحلل؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>يبدأ الحاج بالإحرام من الميقات، ثم يؤدي أعمال يوم التروية وعرفة ومزدلفة، ثم أعمال يوم النحر من رمي ونحر وحلق أو تقصير وطواف الإفاضة والسعي بحسب نسكه، ثم يكمل أيام منى والرمي وطواف الوداع عند مغادرة مكة.</p></div>
+<ol><li><strong>الإحرام:</strong> ينوي النسك ويلبي من الميقات.</li><li><strong>يوم التروية:</strong> يتوجه الحاج إلى منى يوم الثامن من ذي الحجة، وهذا من أعمال الحج المشروعة.</li><li><strong>يوم عرفة:</strong> يقف بعرفة يوم التاسع ويدعو ويذكر الله.</li><li><strong>مزدلفة:</strong> يدفع بعد غروب الشمس إلى مزدلفة ويبيت بها على التفصيل المعروف.</li><li><strong>يوم النحر:</strong> يرمي جمرة العقبة، ويذبح الهدي لمن وجب عليه، ويحلق أو يقصر، ثم يطوف طواف الإفاضة ويسعى إن كان السعي باقيًا عليه.</li><li><strong>أيام التشريق:</strong> يبيت بمنى ويرمي الجمرات في الأيام المحددة.</li><li><strong>طواف الوداع:</strong> يكون آخر عهد الحاج بالبيت عند مغادرة مكة، مع استثناء الحائض والنفساء.</li></ol>
+<p>هذا ترتيب تعليمي عام، وقد يختلف ترتيب بعض أعمال يوم النحر في الجواز والتفصيل، وقد ثبت أن النبي ﷺ سئل عن التقديم والتأخير فقال بما معناه: لا حرج. لكن الأفضل اتباع صفة النسك المعروفة والاستعانة بمرشد موثوق.</p><div class="hadith"><p class="hadith-text">نص الحديث: «افعل ولا حرج»</p><div class="hadith-meta">الصحابي الراوي: عبد الله بن عمرو بن العاص رضي الله عنه. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1737)، وصحيح مسلم (1306). الدرجة: صحيح متفق عليه.</div></div>
+<div class="verse quran-verse">﴿ثُمَّ لْيَقْضُوا تَفَثَهُمْ وَلْيُوفُوا نُذُورَهُمْ وَلْيَطَّوَّفُوا بِالْبَيْتِ الْعَتِيقِ﴾ [الحج: 29].</div>
+<div class="grade">درجة الدليل: صفة الحج العملية ثابتة بأحاديث صفة حجة النبي ﷺ، ومنها حديث جابر الطويل في صحيح مسلم.</div>
+<div class="ref"><strong>المراجع:</strong> صحيح مسلم، كتاب الحج، حديث جابر في صفة حجة النبي ﷺ؛ صحيح البخاري، كتاب الحج؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: صحيح مسلم، كتاب الحج، حديث جابر الطويل رقم 1218؛ المغني لابن قدامة، باب صفة الحج؛ المجموع للنووي، باب صفة الحج والعمرة.</div>
+<h3 class="hajj-section-title">2. ما أحكام الطواف والسعي؟ وما أنواع الطواف وكيف تُحسب أشواط السعي؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>للحج أنواع من الطواف، أهمها طواف القدوم وطواف الإفاضة وطواف الوداع، ولكل واحد حكم ووقت. والسعي بين الصفا والمروة سبعة أشواط، يبدأ من الصفا وينتهي بالمروة؛ فالذهاب شوط والعودة شوط آخر.</p></div><div class="hadith" data-key="35-صحيح البخاري (1755)، وصحيح مسلم (1328)"><p class="hadith-text">نص الحديث: «أُمر الناس أن يكون آخر عهدهم بالبيت، إلا أنه خفف عن الحائض»</p><div class="hadith-meta">الصحابي الراوي: عبد الله بن عباس رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1755)، وصحيح مسلم (1328). الدرجة: صحيح متفق عليه.</div></div>
+<p><strong>طواف القدوم:</strong> يشرع للقارن والمفرد عند قدومهما إلى مكة، وله أحكام تختلف باختلاف النسك. <strong>طواف الإفاضة:</strong> يسمى طواف الزيارة، ويؤدى بعد الوقوف بعرفة ومزدلفة في وقته، ولا يتم الحج بدونه على قول الجمهور. <strong>طواف الوداع:</strong> آخر ما يفعله الحاج عند سفره من مكة، وليس مطلوبًا من الحائض والنفساء.</p>
+<div class="verse quran-verse">﴿وَلْيَطَّوَّفُوا بِالْبَيْتِ الْعَتِيقِ﴾ [الحج: 29].</div>
+<div class="verse quran-verse">﴿إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَنْ يَطَّوَّفَ بِهِمَا﴾ [البقرة: 158].</div><p>يبدأ المعتمر أو الحاج سعيه بالصفا، ويذكر الله ويدعو بما تيسر، ثم يتجه إلى المروة. ويسن للرجل الإسراع الخفيف في موضعه المعروف بين العلامتين الخضراوين إذا تيسر ولم يؤذ أحدًا، أما النساء فلا يطلب منهن ذلك. ولا يجوز أن يتحول الأمر إلى تدافع أو إيذاء للآخرين.</p><div class="grade">درجة الدليل: أصل الطواف والسعي وعدد أشواط السعي ثابت بالسنة وعمل المسلمين، وتفاصيل أحكام أنواع الطواف والموالاة والطهارة وغيرها مبسوطة في كتب الفقه مع وجود خلاف في بعض الجزئيات.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، الحج: 29؛ صحيح البخاري وصحيح مسلم، كتاب الحج؛ الحج المبرور، حافظ بن محمد الحكمي. ومن المراجع التفصيلية: المغني لابن قدامة، أبواب الطواف والسعي؛ المجموع للنووي، باب صفة الحج والعمرة؛ فتح الباري لابن حجر، كتاب الحج؛ صحيح مسلم، حديث جابر الطويل رقم 1218. مراجع إضافية للتوسع: المغني لابن قدامة، أبواب الطواف والسعي؛ المجموع للنووي، باب صفة الحج والعمرة؛ فتح الباري لابن حجر، كتاب الحج؛ صحيح مسلم، حديث جابر رقم 1218.</div>
+<h3 class="hajj-section-title">3. متى يحلق الحاج أو يقصر؟ وهل الحلق أفضل من التقصير؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الحلق أو التقصير من أعمال التحلل، والحلق أفضل للرجال في الجملة؛ وقد دعا النبي ﷺ للمحلقين ثلاثًا وللمقصرين مرة، أما المرأة فتقصر من شعرها ولا تحلق.</p></div><div class="hadith" data-key="36-صحيح البخاري (1727)، وصحيح مسلم (1301)"><p class="hadith-text">نص الحديث: «اللهم ارحم المحلقين»</p><div class="hadith-meta">الصحابي الراوي: عبد الله بن عمر رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1727)، وصحيح مسلم (1301). الدرجة: صحيح متفق عليه؛ وفي الرواية الدعاء للمقصرين أيضًا.</div></div>
+<p>يكون الحلق أو التقصير بعد أعمال يوم النحر وفق ترتيب النسك. والحلق هو إزالة شعر الرأس، والتقصير هو أخذ شيء من الشعر. ويجب مراعاة أحكام المذاهب في القدر المجزئ وكيفية التقصير، ولا يصح أن يكتفي المرء بقص شعرة واحدة على أنه أمر متفق عليه بين جميع العلماء.</p>
+<div class="verse quran-verse">﴿مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لَا تَخَافُونَ﴾ [الفتح: 27].</div>
+<div class="grade">درجة الدليل: الآية نص قرآني، وفضل الحلق ثابت في أحاديث صحيحة.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، الفتح: 27؛ صحيح البخاري وصحيح مسلم، كتاب الحج؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: المغني لابن قدامة، باب الحلق والتقصير؛ المجموع للنووي، كتاب الحج؛ فتح الباري لابن حجر، كتاب الحج، أبواب الحلق والتقصير.</div>
+<h3 class="hajj-section-title proof-heading">الدليل المباشر في نهاية الإجابة</h3><div class="proof"><strong>الدليل المباشر:</strong> حديث جابر الطويل في صفة حج النبي ﷺ، وهو أصل مهم في بيان ترتيب المناسك.</div><div class="proof"><strong>الدليل المباشر:</strong> آية الحج: 29، وحديث أمر الناس أن يكون آخر عهدهم بالبيت إلا أنه خفف عن الحائض، متفق عليه.</div><div class="proof"><strong>الدليل المباشر:</strong> آية الفتح: 27، وحديث الدعاء للمحلقين والمقصرين في الصحيحين.</div></div></details><details class="qa"><summary>6. ما أحكام حج الصبي والنيابة عن الميت والعاجز، وما حكم الحيض أثناء النسك؟</summary><div class="answer"><h3 class="hajj-section-title">1. هل يصح حج الصبي؟ وهل تجزئه حجته عن حجة الإسلام؟</h3><div class="answer-short"><strong>الإجابة المختصرة</strong><p>حج الصبي صحيح وله أجر، لكن لا يجزئه عن حجة الإسلام بعد البلوغ؛ فإذا بلغ وكان مستطيعًا وجب عليه أداء الفريضة.</p></div><p>يُحرم ولي الصبي عنه إذا كان لا يميز، ويعينه على أعمال النسك بحسب استطاعته، وما عجز عنه يسقط عنه. ويجب التفريق بين صحة حج النافلة وبين إسقاط الفرض؛ فالصحة لا تعني أن الحج صار فرضًا مجزئًا.</p><div class="verse quran-verse">﴿وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ﴾ [البقرة: 196].</div><div class="grade">درجة الدليل: الأصل الفقهي أن خطاب الفرض لا يتعلق بالصبي قبل البلوغ، وتفاصيل صحة نسكه ثابتة في السنة وآثار الصحابة.</div><div class="ref"><strong>المراجع:</strong> صحيح مسلم، كتاب الحج، باب صحة حج الصبي وأجره؛ سنن الترمذي، أبواب الحج؛ المغني لابن قدامة، كتاب الحج، حج الصبي؛ المجموع للنووي، كتاب الحج.</div><h3 class="hajj-section-title">2. ماذا تفعل المرأة إذا جاءها الحيض أثناء الحج أو العمرة؟</h3><div class="answer-short"><strong>الإجابة المختصرة</strong><p>تستمر في أعمال الحج التي لا تشترط الطهارة، وتؤخر الطواف حتى تطهر؛ فالحيض لا يمنع الإحرام أو التلبية أو الوقوف بعرفة أو الذكر والدعاء.</p></div><p>قصة عائشة رضي الله عنها في حجة الوداع أصل مهم في المسألة؛ فقد حاضت فأرشدها النبي ﷺ إلى ما تفعل، وأمرها أن تقضي أعمال الحج، وألا تطوف بالبيت حتى تطهر. وتفاصيل العمرة إذا طرأ الحيض قبل الطواف أو بعده تختلف باختلاف المرحلة، فينبغي سؤال أهل العلم عن الحالة المحددة.</p><div class="verse quran-verse">﴿وَيَسْأَلُونَكَ عَنِ الْمَحِيضِ قُلْ هُوَ أَذًى﴾ [البقرة: 222].</div><div class="grade">درجة الدليل: الآية قطعية الثبوت في أصل أحكام المحيض، وتفصيل مناسك الحائض ثابت بالسنة الصحيحة.</div><div class="ref"><strong>المراجع:</strong> صحيح البخاري، كتاب الحيض وكتاب الحج؛ صحيح مسلم، كتاب الحج، حديث عائشة في حجة الوداع؛ فتح الباري لابن حجر، شرح أحاديث حج عائشة؛ المغني لابن قدامة، أحكام الحائض في المناسك.</div><div class="hadith" data-key="41-صحيح البخاري، كتاب الحج؛ صحيح مسلم (1211)"><p class="hadith-text">نص الحديث: «افعلي ما يفعل الحاج غير أن لا تطوفي بالبيت حتى تطهري»</p><div class="hadith-meta">الصحابي الراوي: عائشة أم المؤمنين رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري، كتاب الحج؛ صحيح مسلم (1211). الدرجة: صحيح متفق عليه.</div></div><h3 class="hajj-section-title">3. ما الفرق بين هدي التمتع والقران وبين الأضحية؟</h3><div class="answer-short"><strong>الإجابة المختصرة</strong><p>الهدي مرتبط بالنسك وأحكامه، ومنه هدي التمتع والقران، أما الأضحية فهي ما يذبحه المسلم تقربًا إلى الله في أيام النحر، وليست هي نفسها هدي النسك.</p></div><p>قد يشترك الهدي والأضحية في نوع الحيوان وبعض شروط السن والسلامة، لكن السبب والموضع والحكم تختلف. هدي التمتع والقران يجب عند تحقق شروطه، أما الأضحية فسنة مؤكدة عند جمهور العلماء، وواجبة عند بعضهم. ولا يصح الخلط بينهما في النية أو أحكام التوزيع.</p><div class="verse quran-verse">﴿فَمَنْ تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ﴾ [البقرة: 196].</div><div class="grade">درجة الدليل: الآية قطعية الثبوت في هدي التمتع، وحكم الأضحية مستفاد من السنة وأقوال الفقهاء مع خلاف في حكمها.</div><div class="ref"><strong>المراجع:</strong> القرآن الكريم، البقرة: 196؛ صحيح البخاري وصحيح مسلم، كتاب الأضاحي وكتاب الحج؛ المغني لابن قدامة، كتاب الحج والأضاحي؛ الموسوعة الفقهية الكويتية، مادتا «هدي» و«أضحية».</div><h3 class="hajj-section-title proof-heading">الدليل المباشر في نهاية الإجابة</h3><div class="proof"><strong>الدليل المباشر:</strong> الدليل المباشر: حديث المرأة التي رفعت صبيًا فقالت: ألهذا حج؟ قال ﷺ: «نعم، ولك أجر»؛ الراوية: امرأة من خثعم، والقائل رسول الله ﷺ، أخرجه مسلم (1336) بمعناه. الحديث صحيح، لكنه لا يدل على أن حج الصبي يسقط الفريضة بعد البلوغ.</div><div class="proof"><strong>الدليل المباشر:</strong> الدليل المباشر: قال النبي ﷺ لعائشة: «افعلي ما يفعل الحاج غير أن لا تطوفي بالبيت حتى تطهري». الراوية: عائشة أم المؤمنين، والقائل: رسول الله ﷺ، أخرجه البخاري ومسلم؛ حديث صحيح متفق عليه.</div><div class="proof"><strong>الدليل المباشر:</strong> الدليل المباشر: آية التمتع من البقرة: 196 في هدي التمتع، وأحاديث الأضحية في الصحيحين في كتاب الأضاحي. يجب التفريق بين النصين والسبب الفقهي لكل ذبح.</div></div></details><details class="qa"><summary>7. ما الحج المبرور؟ وما الأخطاء التي ينبغي اجتنابها؟ وما فضل يوم عرفة وأعماله؟</summary><div class="answer"><h3 class="hajj-section-title">1. ما معنى الحج المبرور؟ وما الذي يعين على قبوله؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>الحج المبرور هو الحج الذي استوفى الإخلاص والمتابعة، وأُدي على الوجه المشروع، وسلم من الإثم والرفث والفسوق، وظهرت آثاره الطيبة على صاحبه.</p></div>
+<p>من أهم أسباب البر: إخلاص النية لله، والتعلم قبل أداء المناسك، والحرص على أداء الأركان والواجبات، واجتناب المحرمات، وحسن الخلق مع الناس، والبعد عن الخصام والأذى، والتوبة ورد الحقوق إلى أصحابها. وليس للإنسان أن يجزم لنفسه بقبول عمله؛ بل يرجو رحمة الله ويسأله القبول.</p>
+<div class="verse quran-verse">﴿الْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ فَمَنْ فَرَضَ فِيهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ﴾ [البقرة: 197].</div>
+<p>وجاء في الحديث الصحيح: «والحج المبرور ليس له جزاء إلا الجنة» متفق عليه. وهو بيان لفضل الحج المبرور وعظيم ثوابه.</p><div class="hadith" data-key="37-صحيح البخاري (1773)، وصحيح مسلم (1349)"><p class="hadith-text">نص الحديث: «العمرة إلى العمرة كفارة لما بينهما، والحج المبرور ليس له جزاء إلا الجنة»</p><div class="hadith-meta">الصحابي الراوي: أبو هريرة رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1773)، وصحيح مسلم (1349). الدرجة: صحيح متفق عليه.</div></div>
+<div class="grade">درجة الدليل: فضل الحج المبرور ثابت في الصحيحين، وأسباب البر مستفادة من نصوص الإخلاص واتباع السنة واجتناب المعاصي.</div>
+<div class="ref"><strong>المراجع:</strong> صحيح البخاري وصحيح مسلم، كتاب الحج؛ القرآن الكريم، البقرة: 197؛ الحج المبرور: صفته وكيفية تحقيقه في ضوء الكتاب والسنة، د. حافظ بن محمد الحكمي. مراجع إضافية للتوسع: فتح الباري لابن حجر، كتاب الحج، شرح حديث «والحج المبرور ليس له جزاء إلا الجنة»؛ صحيح البخاري وصحيح مسلم، كتاب الحج؛ زاد المعاد لابن القيم، فصل حجة الوداع وهدي النبي ﷺ.</div><div class="hadith" data-key="37-صحيح البخاري (1521)، وصحيح مسلم (1350)"><p class="hadith-text">نص الحديث: «من حج فلم يرفث ولم يفسق رجع كيوم ولدته أمه»</p><div class="hadith-meta">الصحابي الراوي: أبو هريرة رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح البخاري (1521)، وصحيح مسلم (1350). الدرجة: صحيح متفق عليه.</div></div>
+<h3 class="hajj-section-title">2. ما الأخطاء التي ينبغي للحاج والمعتمر الحذر منها؟</h3>
+<div class="answer-short"><strong>الإجابة المختصرة</strong><p>من الأخطاء: تجاوز الميقات دون إحرام لمن أراد النسك، وترك التعلم، وإيذاء الناس، والتزاحم والتدافع، والانشغال بالتصوير والجدال، والاعتقاد في أدعية أو أفعال مخصوصة بلا دليل.</p></div>
+<p>ينبغي للحاج والمعتمر أن يتعلم صفة النسك قبل السفر، وأن يسأل أهل العلم عند الإشكال، وأن يحافظ على الرفق والسكينة. ومن الخطأ أن يظن أن صحة العبادة تتوقف على لمس الحجر الأسود أو الوصول إلى موضع مزدحم؛ فاستلام الحجر سنة لمن تيسر له بلا أذى، ولا يجوز إيذاء الناس من أجل سنة.</p>
+<p>ومن الخطأ أيضًا الخلط بين الركن والواجب والسنة، أو إطلاق حكم بفساد الحج على كل مخالفة دون معرفة تفاصيلها. فبعض الأخطاء لا يؤثر في صحة النسك، وبعضها يحتاج إلى فدية، وبعضها قد يكون مؤثرًا تأثيرًا كبيرًا؛ فيرجع في الواقعة المحددة إلى عالم موثوق.</p>
+<div class="verse quran-verse">﴿وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ﴾ [البقرة: 197].</div>
+<div class="grade">درجة الدليل: النهي عن الرفث والفسوق ثابت بالقرآن، وأحكام المناسك وأعمالها ثابتة بالسنة والفقه.</div>
+<div class="ref"><strong>المراجع:</strong> القرآن الكريم، البقرة: 197؛ صحيح البخاري وصحيح مسلم، كتاب الحج؛ الحج المبرور، حافظ بن محمد الحكمي. مراجع إضافية للتوسع: المغني لابن قدامة، كتاب الحج، أبواب محظورات الإحرام وصفة الحج؛ المجموع للنووي، كتاب الحج؛ الموسوعة الفقهية الكويتية، مواد «إحرام» و«حج».</div>
+<h3 class="hajj-section-title">3. ما فضل يوم عرفة للحاج؟ وما الذي يشرع له فعله في هذا اليوم؟</h3><div class="answer-short"><strong>الإجابة المختصرة</strong><p>يوم عرفة أعظم أيام الحج، وهو يوم الوقوف الذي لا يصح الحج بدونه، ويشرع فيه الإكثار من الدعاء والذكر والتلبية والتوبة.</p></div><p>ينبغي للحاج أن يحافظ على حدود عرفة ووقت الوقوف، وأن ينشغل بالدعاء والذكر دون إيذاء أو مزاحمة. ولا يلزم أن يقف على جبل الرحمة تحديدًا؛ فجميع مواضع عرفة موقف ما دامت داخل حدودها الشرعية.</p><div class="verse quran-verse">﴿فَإِذَا أَفَضْتُمْ مِنْ عَرَفَاتٍ فَاذْكُرُوا اللَّهَ عِنْدَ الْمَشْعَرِ الْحَرَامِ﴾ [البقرة: 198].</div><div class="grade">درجة الدليل: الآية قطعية الثبوت، وفضل يوم عرفة ثابت بأحاديث صحيحة، وتفاصيل الوقوف مبسوطة في كتب المناسك.</div><div class="ref"><strong>المراجع:</strong> صحيح مسلم، كتاب الحج، باب فضل يوم عرفة؛ سنن الترمذي، أبواب الحج؛ المغني لابن قدامة، فصل الوقوف بعرفة؛ فتح الباري لابن حجر، كتاب الحج.</div><div class="hadith" data-key="44-صحيح مسلم (1348)"><p class="hadith-text">نص الحديث: «ما من يوم أكثر من أن يعتق الله فيه عبدًا من النار من يوم عرفة»</p><div class="hadith-meta">الصحابي الراوي: عائشة أم المؤمنين رضي الله عنه/عنها. القائل: رسول الله ﷺ. التخريج: صحيح مسلم (1348). الدرجة: صحيح.</div></div><h3 class="hajj-section-title proof-heading">الدليل المباشر في نهاية الإجابة</h3><div class="proof"><strong>الدليل المباشر:</strong> حديث «والحج المبرور ليس له جزاء إلا الجنة» متفق عليه.</div><div class="proof"><strong>الدليل المباشر:</strong><div class="verse quran-verse">﴿وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ﴾ [البقرة: 197].</div></div><div class="proof"><strong>الدليل المباشر:</strong> الدليل المباشر: حديث عائشة: «ما من يوم أكثر من أن يعتق الله فيه عبدًا من النار من يوم عرفة». الراوية: عائشة أم المؤمنين، والقائل: رسول الله ﷺ، أخرجه مسلم (1348)، وهو حديث صحيح.</div></div></details></section>
+<h2>مراجع عامة للتوسع</h2>
+<p>هذه أسماء مراجع معروفة يمكن الرجوع إليها عند دراسة أبواب الموسوعة. وقد تختلف أرقام الصفحات باختلاف الطبعات؛ لذلك ذُكرت أسماء الكتب دون أرقام صفحات غير متحقق منها.</p>
+<ul>
+<li>القرآن الكريم.</li>
+<li>جامع البيان عن تأويل آي القرآن — الإمام الطبري.</li>
+<li>تفسير القرآن العظيم — الإمام ابن كثير.</li>
+<li>الجامع لأحكام القرآن — الإمام القرطبي.</li>
+<li>التحرير والتنوير — ابن عاشور.</li>
+<li>صحيح البخاري — الإمام البخاري.</li>
+<li>صحيح مسلم — الإمام مسلم.</li>
+<li>سنن أبي داود — أبو داود السجستاني.</li>
+<li>جامع الترمذي — الإمام الترمذي.</li>
+<li>مقدمة ابن الصلاح في علوم الحديث.</li>
+<li>نزهة النظر — ابن حجر العسقلاني.</li>
+<li>شرح العقيدة الطحاوية.</li>
+<li>شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل — ابن القيم.</li>
+<li>درء تعارض العقل والنقل — ابن تيمية.</li>
+<li>بداية المجتهد ونهاية المقتصد — ابن رشد.</li>
+<li>المغني — ابن قدامة.</li>
+<li>الحج المبرور: صفته وكيفية تحقيقه في ضوء الكتاب والسنة — د. حافظ بن محمد الحكمي.</li></ul>
+<h2>مواقع مؤسسية للبحث والمراجعة</h2>
+<ul>
+<li><a href="https://qurancomplex.gov.sa/" rel="noopener" target="_blank">مجمع الملك فهد لطباعة المصحف الشريف</a></li>
+<li><a href="https://www.dar-alifta.org/" rel="noopener" target="_blank">دار الإفتاء المصرية</a></li>
+<li><a href="https://www.azhar.eg/" rel="noopener" target="_blank">بوابة الأزهر الشريف</a></li>
+<li><a href="https://dorar.net/hadith" rel="noopener" target="_blank">الموسوعة الحديثية — الدرر السنية</a></li>
+<li><a href="https://sunnah.com/" rel="noopener" target="_blank">موسوعة الحديث — Sunnah.com</a></li>
+</ul>
+<div class="note">
+<strong>كلمة أخيرة للقارئ:</strong>
+الغاية من طلب العلم ليست جمع الإجابات فحسب، بل تعلم طريقة التثبت، وفهم الدليل، ومعرفة ما نعلمه وما لا نعلمه. وإذا كانت المسألة محل خلاف معتبر، فالأمانة العلمية تقتضي بيان ذلك بدل إخفائه.
+</div>
+</main>
+<footer>
+<strong>موسوعة الأسئلة الدينية الكبرى</strong>
+<p>نسخة مطوّرة تتضمن إجابة مختصرة مباشرة في بداية كل سؤال، مع الإبقاء على الشروح والأدلة والمراجع. أُضيف لكل سؤال دليل مباشر وموضع رجوع محدد قدر الإمكان، مع بيان درجة الأحاديث المذكورة. والمراجع العامة في آخر الصفحة للتوسع، لا لإحلالها محل الدليل الخاص بكل سؤال.</p>
+<p class="small">تنبيه: لا تُغني الموسوعة عن الرجوع إلى أهل العلم في الفتاوى والمسائل الخاصة.</p>
+</footer>
+</div>
+<style>
+/* تمييز بصري واضح لأقسام الحج والعمرة والأحاديث */
+.hajj-section,.umrah-section,.distinction{margin:18px 0;padding:15px 17px;border:1px solid #d5d5d5;border-right:5px solid #222;border-radius:9px;background:#fff;color:#111}
+.hajj-section h3,.umrah-section h3,.distinction h3{margin:0 0 12px;color:#111;font-size:17px;font-weight:800}
+.hajj-section li,.umrah-section li,.distinction li{color:#111;margin:8px 0;line-height:1.9}
+.hajj-section strong,.umrah-section strong,.distinction strong{color:#000}
+.hajj-section{background:#fafafa}
+.umrah-section{background:#f4f4f4}
+.distinction{background:#fff;border-right-width:6px}
+.hadith-box{margin:16px 0;padding:15px 17px;background:#f3f0e8;border:1px solid #ded5c3;border-right:5px solid #8a6b35;border-radius:9px;color:#171717;line-height:2}
+.hadith-box strong{color:#111}
+.hadith-box p{margin:7px 0;color:#171717}
+.small-note{font-size:13px;color:#333;background:#f7f7f7;border-right:3px solid #555;padding:9px 12px;border-radius:5px}
+</style>
+</body>
+  </html>
